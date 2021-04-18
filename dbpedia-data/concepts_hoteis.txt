@@ -1,0 +1,304 @@
+aparência
+atendimento
+categoria de hotéis
+conforto
+categoria de hotéis
+classe superior
+conforto superior
+hotéis luxo
+luxo superior
+hotéis padrão
+padrão superior
+primeira classe
+turista
+turista superior
+uma estrela
+duas estrelas
+três estrelas
+quatro estrelas
+cinco estrelas
+custo-benefício
+albergue
+alojamento de férias
+apartamento
+bangalô e campismo
+cama e café da manhã
+casa de hóspedes
+hotel 
+hotel adega
+hotel aquático
+hotel butique
+hotel casa da árvore
+hotel casamata
+hotel cápsula
+hotel de gelo
+hotel fazenda
+hotel flutuante
+hotel histórico
+motel
+outra hospitalidade
+pousada
+pensão
+funcionários
+babá
+funcionário da cozinha
+funcionário da lavanderia
+funcionário da limpeza
+funcionário da piscina
+funcionário da recepção
+funcionário da área de lazer
+funcionário do bar e restaurante
+garçom
+gerente
+manobrista
+mensageiro
+motorista
+porteiro
+recreacionista
+horário da piscina coberta
+horário
+horário da piscina
+horário do estacionamento
+horário do restaurante
+horário do spa
+instalações
+acesso para deficientes
+instalação do banheiro
+aquecedor de toalhas
+balança
+banheira
+chuveiro
+lavatório
+pia
+produtos de higiene
+roupão
+secador
+toalete
+toalha
+torneira
+ducha
+hidromassagem
+instalação do quarto
+ar-condicionado
+cabide
+cama
+tapete
+chaleira
+colchão
+cortina
+espelho
+ferro de passar roupa
+frigobar
+iluminação
+internet
+isolamento acústico
+cafeteira
+móveis
+roupa de cama
+guarda-roupa
+telefone
+televisão
+terraço
+tomada
+travesseiro
+tábua de passar roupa
+minibar
+ferro a vapor
+sacada
+mobílias
+carpete
+tevê
+tv
+roupeiro
+máquina de café
+abajur
+candeeiro
+acesso à internet
+rede sem fio
+zona de wifi
+instalação externa
+bar da piscina
+campo de golfe
+internet
+jacuzzi
+jardim
+estacionamento
+piscina
+quadra de esportes
+hidromassagem ao ar livre
+garagem
+parque de estacionamento
+acesso à internet
+rede sem fio
+zona de wifi
+instalação interna
+área de fumantes
+berço
+calefação
+cassino
+playground
+corredor
+cozinha
+danceteria
+elevador
+escadaria
+estacionamento
+guarda volumes
+internet
+lavanderia
+piscina coberta
+polimento de sapatos
+quadra de esportes
+bar e restaurante
+sala de eventos
+sala de jogos
+sala de leitura
+salão de beleza
+salão de festas
+shopping
+spa
+tabacaria
+toalete
+lojas
+garagem
+parque de estacionamento
+acesso à internet
+rede sem fio
+zona de wifi
+cabeleireiro
+discoteca
+escada
+sala de malas
+clube para crianças
+parque infantil
+praça de brinquedos
+sistema de aquecimento
+aquecimento
+centro comercial
+localização
+endereco
+cidade
+código postal
+país
+rua
+pontos de interesse
+aeroporto
+arena
+centro da cidade
+centro histórico
+construção histórica
+danceteria
+estação de ônibus
+estádio
+igreja
+jardim
+monumento
+museu
+parada de ônibus
+parque
+praia
+praça
+shopping
+teatro
+universidade
+bar e restaurante
+farmácia
+ponto de ônibus
+lojas
+centro comercial
+rodoviária
+preço
+preço da internet
+preço da lavanderia
+preço do berço
+preço do café da manhã
+preço do estacionamento
+preço do quarto
+preço do bar e restaurante
+quarto de albergue
+quarto masculino com 10 camas
+quarto masculino com 12 camas
+quarto masculino com 4 camas
+quarto masculino com 6 camas
+quarto masculino com 8 camas
+quarto feminino com 10 camas
+quarto feminino com 12 camas
+quarto feminino com 4 camas
+quarto feminino com 6 camas
+quarto feminino com 8 camas
+quarto misto com 10 camas
+quarto misto com 12 camas
+quarto misto com 4 camas
+quarto misto com 6 camas
+quarto misto com 8 camas
+quarto de apartamento
+quarto de casal
+quarto de solteiro
+quarto romântico
+quarto duplo
+quarto triplo
+suíte
+rede de hotéis
+Accor HotelsAdagio
+Accor HotelsAllSeasons
+Accor HotelsEtapHotel
+Accor HotelsFormula1
+Accor HotelsHotelF1
+Accor HotelsIbis
+Accor HotelsMercure
+Accor HotelsMGallery
+Accor HotelsNovotel
+Accor HotelsOrbis
+Accor HotelsPullman
+Accor HotelsSofitel
+Accor HotelsSuiteNovotel
+Accor HotelsThalassaSea\Spa
+Best Western Hotels
+Choice Hotels International
+Domina Hotels
+Fairmont Hotels
+Hilton Hotels
+Hyatt Hotels
+Iberostar Hotels
+Marriot Hotels
+Pestana Group Hotels
+Porto Bay Hotels
+Radisson Hotels
+Tivoli Hotels
+Vila Galé Hotels
+refeição
+almoço
+café da manhã
+jantar
+serviço
+aluguel de bicicletas
+aluguel de veículos
+câmbio
+gerência
+lavanderia
+limpeza
+portaria
+posto de turismo
+recepção
+serviço de babá
+serviço de manobrista
+serviço de motorista
+serviço de quarto
+café da manhã no quarto
+entrega de jornal
+serviço para lua-de-mel
+transporte para o aeroporto
+tipo de hóspede
+casal
+casal jovem
+casal maduro
+colega de trabalho
+família
+família com filhos mais velhos
+família com filhos mais jovens
+família grande
+grupo de amigos
+grupo jovem
+grupo maduro
+viajante de negócios
+viajante sozinho
