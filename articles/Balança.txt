@@ -1,0 +1,174 @@
+Balança (do latim bis - dois e linx - prato[1]) é um instrumento que mede a massa de um corpo.[2] A unidade usual para massa é o kg, por se tratar de uma unidade do SI. Portanto, o correto é dizer que as balanças medem as massas dos corpos e objetos, não o peso deles..[3] Contudo, embora a função primária da balança seja medir a massa, há balanças que, por meio de relações matemáticas simples, podem informar o valor aproximado do peso de um corpo.
+O peso é uma grandeza de força física, e duas unidades comumente utilizadas para representá-la são o N e o kgf. Quando calculado em Newtons (a partir de uma massa dada em quilogramas), o peso corresponde à massa do corpo multiplicada pelo valor da aceleração da gravidade, que é de aproximadamente 9,80665 m/s² (a gravidade também precisa estar em unidades do SI).[3] Desta forma, uma pessoa que possua massa de 55 kg terá um peso aproximado de 539,36575N.[4]
+Existem diversas maneiras de se classificar as balanças, de acordo com o critério adotado.
+Quanto ao tipo, uma balança pode ser:
+As balanças analíticas e de precisão são mais frequentemente utilizadas em laboratórios e na indústria farmacêutica.
+Uma balança pode ser dotada de um dos seguintes dispositivos internos de funcionamento:
+Nas balanças eletrônicas, a massa é obtida da seguinte maneira:
+Uma balança de dois pratos é aquela onde se colocam pesos (confeccionados geralmente de metal) de um lado e no outro lado se coloca o que se deseja pesar. É possível também colocar pesos nos dois pratos. Para valores inteiros, é possível representar os números usando-se pesos cujos valores são potências de 3, de 1 até 
+
+
+
+
+3
+
+n
+
+
+
+
+{\displaystyle 3^{n}}
+
+.
+Por exemplo, usando-se os pesos 
+
+
+
+1
+(
+=
+
+3
+
+0
+
+
+)
+
+
+{\displaystyle 1(=3^{0})}
+
+, 
+
+
+
+3
+
+
+{\displaystyle 3}
+
+ e 
+
+
+
+
+3
+
+2
+
+
+
+
+{\displaystyle 3^{2}}
+
+ unidades (apenas um peso de cada valor!), é possível representar os valores inteiros de 1 até 13 (as somas correspondem aos pesos colocados no mesmo prato da balança que o objeto a ser pesado, enquanto as diferenças são os contrapesos, ou seja, os pesos colocados no outro prato).
+Assim:
+De um modo geral, usando-se pesos de 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+, 
+
+
+
+3
+
+
+{\displaystyle 3}
+
+, 
+
+
+
+
+3
+
+2
+
+
+
+
+{\displaystyle 3^{2}}
+
+,
+
+
+
+⋯
+
+
+{\displaystyle \cdots }
+
+, 
+
+
+
+
+3
+
+n
+
+
+
+
+{\displaystyle 3^{n}}
+
+, podemos pesar em uma balança valores inteiros de 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+ até 
+
+
+
+
+∑
+
+p
+=
+0
+
+
+n
+
+
+
+3
+
+p
+
+
+=
+
+
+
+
+3
+
+n
++
+1
+
+
+−
+1
+
+2
+
+
+
+
+{\displaystyle \sum _{p=0}^{n}3^{p}={\frac {3^{n+1}-1}{2}}}
+
+. 
+Naturalmente que, para pesagens mais precisas, podemos usar valores maiores expressando-se as quantidades em unidades submúltiplas de peso. Por exemplo, 1 Kg pode ser expresso como 1000 gramas.

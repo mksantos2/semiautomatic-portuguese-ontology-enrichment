@@ -1,0 +1,9 @@
+A relação de custo-beneficio ou RCB é um indicador que relaciona os benefícios de um projeto ou proposta, expressos em termos monetários, e o seus custos, também expressos em termos monetários. Tanto os benefícios como os custos devem ser expressos em valores presentes.
+Este termo foi primeiro usado durante a conferência de V. Moraes, proposto pelo matemático Banza von Hambburg. Embora seja um conceito utilizado em diversas áreas, foi primeiro proposto para avaliar a viabilidade dos custos dos estabelecimentos comerciais da época, mais precisamente os estabelecimentos alimentícios.
+O Índice de Rendibilidade relaciona os cash flows de exploração com os cash flows de investimento, através da seguinte expressão:
+Em que,
+O indicador IR é muito utilizado e de interpretação relativamente fácil em comparação a outros indicadores, no entanto, apresenta diversas limitações, dentre as quais se destaca a insensibilidade à escala e à duração projecto.
+A interpretação deste critério deve ser feita da seguinte forma:
+Garante que o VAL > 0 e ainda que a TIR > TA.
+A principal desvantagem das avaliações baseadas em RCB é que, por definição, elas ignoram impactos não-monetários. Foram feitas tentativas de sobrepujar estas limitações mediante a combinação da RCB com informações a respeito desses impactos não passíveis de expressão monetária, tais como a abordagem proposta pelo New Approach to Appraisal, utilizado no Reino Unido.
+Uma outra dificuldade da RCB refere-se à definição precisa de benefícios e custos, dada a variabilidade de critérios.

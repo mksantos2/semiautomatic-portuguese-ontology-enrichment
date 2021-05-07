@@ -1,0 +1,4 @@
+A Primeira classe de um avião, é a classe com o melhor serviço, ou serviço VIP, e, também, com o preço mais elevado. O serviço oferecido é superior ao da classe executiva, e existe apenas nos voos de longa-duração. Os lugares disponíveis podem variar entre oito a dezesseis.
+Caracteriza-se pelo aumento do espaço entre assentos, que pode variar entre 25 cm a 75 cm, televisão pessoal, alimentos e bebidas de alta qualidade, serviço personalizado, privacidade, pijama, chinelos, e bolsa de artigos para a higiene. Os passageiros desta classe têm check-in próprio, sala de espera, e podem ser os primeiros a entrar no avião.
+Actualmente são poucas as companhias aéreas que oferecem este serviço, dado o seu elevado custo. Os aviões utilizados são os de grandes dimensões, tal como o Boeing 777, 747, ou 767, e também os Airbus A340, A330 e A380.
+

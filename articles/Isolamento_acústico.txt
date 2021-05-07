@@ -1,0 +1,22 @@
+O isolamento sonoro (ou isolamento acústico) é a técnica utilizada para não deixar passar o som de um para outro ambiente, através do uso de diversos materiais: densos, pesados, entre outros, que consigam amortecer e dissipar a energia sonora (chapas metálicas, vidros, madeira maciça, parede de tijolo maciço, mantas de borracha , cortiça ,tapetes ,  etc.). O Isolamento, como o nome já diz, tem o objetivo de impedir a passagem/saída dos sons entre distintos ambientes, entre edificações e o ambiente. 
+Outro fator que influencia no isolamento é o fato de não se usar apenas uma barreira, mas criar uma sequência de obstáculos para o som ter mais dificuldade de se propagar. O uso de paredes duplas, janelas com vidros duplos ou a combinação de materiais de diferentes densidades (porta de madeira com chapa de aço) são muito importantes para se ter um bom isolamento acústico.
+Neste caso, é ainda importante fazer os diferentes elementos usados não se tocarem diretamente, usando sempre espumas, borrachas e o que for conveniente para se anular a vibração.
+Pelo modo que o som se propaga, cuidado para não deixar nenhum tipo de fresta entre os fechamentos, pois isso pode prejudicar todo o conjunto. Portas e caixilhos devem ter atenção especial, com o uso de espumas e borrachas para se garantir a estanqueidade do ambiente.
+Ao duplicarmos a massa de um fechamento, aumentamos em 6 dB o índice de redução sonora. Quanto maior for a massa da superfície trabalhada, menor será sua vibração e, desta forma, menor a probabilidade de transmitir sons.
+Porém, para frequências baixas, menores que a frequência de ressonância, o isolamento não obedece à Lei da Massa, dependendo sim, nestes casos, das características de rigidez do isolamento. Quando se faz necessário um isolamento consideravelmente grande, é preciso aumentar o peso do isolamento de forma considerável. Exemplo: Paredes duplas, Paredes duplas com câmara de ar, Paredes duplas com aplicação de espuma, etc.
+R = 13.3log(m.f)-22.5(dB) 
+– m: massa parede por m2(Kg/m2) 
+– f: freqüência em Hz 
+R(dB)=13.3log(m1+m2)+20log(f)-35.7
+Os sons classificados como aéreos são produzidos na massa de ar ambiente, podem ser transmitidos tanto pelo ar como por elementos líquidos ou sólidos.
+O mais usual nesse tipo de isolamento é a Aplicação da técnica das "Paredes Duplas". A quantidade de isolamento produzida depende das características construtivas das paredes e da intensidade do som incidente. A lei da massa indica que o isolamento aumenta em aproximadamente 6dB para cada duplicação da massa. O isolamento produzido por paredes duplas fica aproximadamente entre 5 a 10dB superior ao produzido por uma parede padrão.
+Além da duplicidade das paredes, existem fatores a serem observados para impedir a passagem de ruídos entre os ambientes. Por exemplo, observar se não há janelas e portas frequentemente abertas, conhecer o material da estrutura (materiais porosos como tijolos vazados e concreto celular isolam muito menos do que materiais pesados e maciços); forros de materiais leves ou paredes  que não alcançam o teto, são alguns fatores que resultam em canais de condução de ruídos.
+Para amenizar os ruídos que ocorrem nos pisos, devemos assentá-los (parchet, pedras, cerâmicas) sobre uma camada de areia grossa. Revestimentos de borracha também são amplamente utilizados, bem como tapetes felpudos, pisos flutuantes (composto de tábuas pregadas a sarrafos que descansem sobre uma camada de material flexível estendida sobre o entrepiso de concreto). O forro suspenso aumenta consideravelmente o isolamento de um piso referente aos ruídos aéreos.
+A qualidade das esquadrias de portas e janelas está diretamente ligada ao isolamento de ruídos. Para aumentar o desempenho destas aberturas é recomendado a aplicação de vidros duplos e laminados objetivando o aumento de massa da esquadria.
+MATERIAIS ISOLANTES 
+MATERIAIS REFLETORES
+MATERIAIS DIFUSORES
+MATERIAIS ABSORVENTES 
+Faculdade de Arquitetura UFSC
+Laboratório de Eficiência Energética em Edificações
+

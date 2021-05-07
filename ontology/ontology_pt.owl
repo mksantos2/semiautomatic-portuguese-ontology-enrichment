@@ -1,0 +1,2928 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2012/4/accommodation-17042012.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2012/4/accommodation-17042012.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2012/4/accommodation-17042012.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#belongsTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#belongsTo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasCategory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasCategory">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasCountryOfOrigin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasCountryOfOrigin">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasCountryOfOrigin"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Country"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasDistanceTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasDistanceTo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasLaundry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasLaundry">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Laundry"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasPostalAddress -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasPostalAddress">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Address"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasRoom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasRoom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Room"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#offersMeetingFacility -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#offersMeetingFacility">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meeting"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#creditCardAccepted -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#creditCardAccepted">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasAirConditioner -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasAirConditioner">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AC</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasBaggageRoom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasBaggageRoom">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasBalcony -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasBalcony"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasBed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasBed">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasCongressFacility -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasCongressFacility"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasContactData -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasContactData"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasDecor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasDecor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasEMail -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasEMail">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasFitnessRoom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasFitnessRoom">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasFridge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasFridge"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasHandicapAccessibility -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasHandicapAccessibility">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+        <rdfs:label xml:lang="en">Access for disabled</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasInternetAccess -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasInternetAccess">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasLaundryService -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasLaundryService"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasLift -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasLift">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasElevator</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasOneNightPrice -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasOneNightPrice">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasOpeningHours -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasOpeningHours">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasParking -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasParking">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasPlugSockets -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasPlugSockets"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasRating">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasSafe -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasSafe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasTVSet -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasTVSet">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasTelephoneRoom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasTelephoneRoom">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasWebsite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasWebsite">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasWiFi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasWiFi">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasInternetAccess"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#offersChildCare -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#offersChildCare">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+        <rdfs:label xml:lang="en">offerBabySitter</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#offersCrib -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#offersCrib">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">offerCot</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#offersShuttleService -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#offersShuttleService">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#openFromTo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#openFromTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#petsAllowed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#petsAllowed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#spokenLanguage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#spokenLanguage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality"/>
+        <rdfs:label xml:lang="en">hasMultilingualStaff</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/accommodation-04042012.owl#Botel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/accommodation-04042012.owl#Botel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation"/>
+        <rdfs:label xml:lang="pt">Hotel Flutuante</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/accommodation-04042012.owl#BungalowAndCamping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/accommodation-04042012.owl#BungalowAndCamping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation"/>
+        <rdfs:label xml:lang="pt">Bangalô e Campismo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/accommodation-04042012.owl#Golf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/accommodation-04042012.owl#Golf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility"/>
+        <rdfs:label xml:lang="pt">Golfe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation">
+        <rdfs:label xml:lang="pt">Acomodação</rdfs:label>
+        <rdfs:label xml:lang="pt">Alojamento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Adagio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Adagio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Address -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Address">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Location"/>
+        <rdfs:label xml:lang="pt">Endereço</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Localização</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Administration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Administration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff"/>
+        <rdfs:label xml:lang="pt">Gerência</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Airport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Airport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Aeroporto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AirportShuttle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AirportShuttle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+        <rdfs:label xml:lang="pt">Transporte para o Aeroporto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AllSeasons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AllSeasons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Ibis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Animator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Animator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff"/>
+        <rdfs:label xml:lang="pt">Animador</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Apartment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Apartment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BedAndBreakfast"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestHouse"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HolidaySettlement"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostal"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Inn"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension"/>
+        <rdfs:label xml:lang="pt">Apartamento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Room"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom"/>
+        <rdfs:label xml:lang="pt">Tipos de Quarto em Apartamentos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Arena -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Arena">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Arena</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Babysitting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Babysitting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+        <rdfs:label xml:lang="pt">Babá</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Balance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Balance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility"/>
+        <rdfs:label xml:lang="pt">Balança</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Ballroom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Ballroom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Salão de Baile</rdfs:label>
+        <rdfs:label xml:lang="pt">Salão de Festas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BarPrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BarPrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price"/>
+        <rdfs:label xml:lang="pt">Preço do Bar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BarStaff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BarStaff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff"/>
+        <rdfs:label xml:lang="pt">Funcionários do Bar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRobes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRobes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility"/>
+        <rdfs:label xml:lang="pt">Roupão</rdfs:label>
+        <rdfs:label xml:lang="pt">Roupões</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility"/>
+        <rdfs:label xml:lang="pt">Facilidades da Casa de Banho</rdfs:label>
+        <rdfs:label xml:lang="pt">Facilidades do banheiro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Bathroom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Bathroom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Banheiro</rdfs:label>
+        <rdfs:label xml:lang="pt">Casa de Banho</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Bathtub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Bathtub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility"/>
+        <rdfs:label xml:lang="pt">Banheira</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Beach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Beach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Praia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BeautySalon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BeautySalon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Salão de beleza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Bed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Bed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Cama</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BedAndBreakfast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BedAndBreakfast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestHouse"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HolidaySettlement"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostal"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Inn"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension"/>
+        <rdfs:comment>It is a small lodging establishment that offers overnight accommodation and breakfast, but usually does not offer other meals. Typically, bed and breakfasts are private homes with fewer than 10 bedrooms available for commercial use.
+In Austria is also denominated Hotel Garni.</rdfs:comment>
+        <rdfs:label xml:lang="pt">Cama e café da manhã</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BestWesternHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BestWesternHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BicycleRental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BicycleRental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+        <rdfs:label xml:lang="pt">Aluguel de Bicicletas</rdfs:label>
+        <rdfs:label xml:lang="pt">Aluguer de Bicicletas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Breakfast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Breakfast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meal"/>
+        <rdfs:label xml:lang="pt">Café da Manhã</rdfs:label>
+        <rdfs:label xml:lang="pt">Pequeno Almoço</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BreakfastPrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BreakfastPrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price"/>
+        <rdfs:label xml:lang="pt">Preço do Café da Manhã</rdfs:label>
+        <rdfs:label xml:lang="pt">Preço do Pequeno Almoço</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BunkerHotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BunkerHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+        <rdfs:comment>The Null Stern Hotel in Teufen, Appenzellerland, Switzerland and the Concrete Mushrooms in Albania are former nuclear bunkers transformed into hotels.</rdfs:comment>
+        <rdfs:label xml:lang="pt">Hotel Casamata</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BusStation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BusStation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Estação de Autocarros</rdfs:label>
+        <rdfs:label xml:lang="pt">Estação de Ônibus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BusStop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BusStop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Parada de Ônibus</rdfs:label>
+        <rdfs:label xml:lang="pt">Paragem de Autocarros</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BusinessTraveller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BusinessTraveller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Co-worker"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Couple"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Family"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GroupOfFriends"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IndividualTraveller"/>
+        <rdfs:label xml:lang="pt">Viajante de Negócios</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CapsuleHotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CapsuleHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+        <rdfs:comment>Capsule hotels are a type of economical hotel that are found in Japan, where people sleep in stacks of rectangular containers.</rdfs:comment>
+        <rdfs:label xml:lang="pt">Hotel cápsula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CarRental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CarRental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+        <rdfs:label xml:lang="pt">Aluguel de Veículos</rdfs:label>
+        <rdfs:label xml:lang="pt">Aluguer de Veículos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Carpet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Carpet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Alcatifa</rdfs:label>
+        <rdfs:label xml:lang="pt">Carpete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Casino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Casino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Cassino</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CaveHotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CaveHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+        <rdfs:comment>Desert Cave Hotel in Coober Pedy, South Australia and the Cuevas Pedro Antonio de Alarcón (named after the author) in Guadix, Spain, as well as several hotels in Cappadocia, Turkey, are notable for being built into natural cave formations, some with rooms underground.</rdfs:comment>
+        <rdfs:label xml:lang="pt">Hotel adega</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CheckinService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CheckinService">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Reception"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+        <rdfs:label xml:lang="pt">Recepção</rdfs:label>
+        <rdfs:label xml:lang="pt">Serviço de Check In</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CheckoutService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CheckoutService">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Reception"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+        <rdfs:label xml:lang="pt">Serviço de Check Out</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ChoiceHotelsInternational -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ChoiceHotelsInternational">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Church -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Church">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Igreja</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#City">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Location"/>
+        <rdfs:label xml:lang="pt">Cidade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CleaningStaff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CleaningStaff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff"/>
+        <rdfs:label xml:lang="pt">Funcionários da Limpeza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Co-worker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Co-worker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType"/>
+        <rdfs:label xml:lang="pt">Colega de Trabalho</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CoffeeMachine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CoffeeMachine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Máquina de Café</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CoffeePrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CoffeePrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price"/>
+        <rdfs:label xml:lang="pt">Preço do Café</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Comfort -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Comfort">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FirstClass"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Luxury"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Standard"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorComfort"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorFirstClass"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorLuxury"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist"/>
+        <rdfs:label xml:lang="pt">Conforto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ConciergeService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ConciergeService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+        <rdfs:label xml:lang="pt">Porteiro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ConferenceRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ConferenceRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Sala de Conferências</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Cot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Cot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Berço</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CotPrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CotPrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price"/>
+        <rdfs:label xml:lang="pt">Preço do Berço</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Country">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Location"/>
+        <rdfs:label xml:lang="pt">País</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Couple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Couple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType"/>
+        <rdfs:label xml:lang="pt">Casal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CurrencyExchange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CurrencyExchange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+        <rdfs:label xml:lang="pt">Serviço de Câmbio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Curtain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Curtain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Cortina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DeluxeDoubleRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DeluxeDoubleRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom"/>
+        <rdfs:label xml:lang="pt">Quarto Duplo de Luxo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DeluxeRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DeluxeRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DoubleRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SingleRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#StandardRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Suite"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TripleRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Twin"/>
+        <rdfs:label xml:lang="pt">Quarto de luxo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DeluxeTwinRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DeluxeTwinRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom"/>
+        <rdfs:label xml:lang="pt">Quarto Twin de Luxo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Design -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Design">
+        <rdfs:label xml:lang="pt">Aparência</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Dinner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Dinner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meal"/>
+        <rdfs:label xml:lang="pt">Jantar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DisabledAccess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DisabledAccess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility"/>
+        <rdfs:label xml:lang="pt">Acesso para Deficientes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Disco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Disco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Discoteca</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DominaHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DominaHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Doorman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Doorman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff"/>
+        <rdfs:label xml:lang="pt">Porteiro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DoubleRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DoubleRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SingleRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#StandardRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Suite"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TripleRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Twin"/>
+        <rdfs:label xml:lang="pt">Quarto de casal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Downtown -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Downtown">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Centro da cidade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Driver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Driver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility"/>
+        <rdfs:label xml:lang="pt">Motorista</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DrycleaningService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DrycleaningService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+        <rdfs:label xml:lang="pt">Serviço de Limpeza a Seco</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Dryer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Dryer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility"/>
+        <rdfs:label xml:lang="pt">Secador</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#EletricKettle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#EletricKettle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Kettle"/>
+        <rdfs:label xml:lang="es">Hervidor eléctrico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Elevator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Elevator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Elevador</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#EtapHotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#EtapHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExtendedFamily -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExtendedFamily">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Family"/>
+        <rdfs:label xml:lang="pt">Família Grande</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExteriorJacuzzi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExteriorJacuzzi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility"/>
+        <rdfs:label xml:lang="pt">Jacuzzi Exterior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility"/>
+        <rdfs:label xml:lang="pt">Instalação externa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility">
+        <rdfs:label xml:lang="pt">Facilidade</rdfs:label>
+        <rdfs:label xml:lang="pt">Instalações</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FairmontHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FairmontHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Family -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Family">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GroupOfFriends"/>
+        <rdfs:label xml:lang="pt">Família</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyJuniorSuiteWithSeaView -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyJuniorSuiteWithSeaView">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyRoom"/>
+        <rdfs:label xml:lang="pt">Suite Familiar Júnior com Vista para o Mar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom"/>
+        <rdfs:label xml:lang="pt">Quarto Familiar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyRoomWithBalcony -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyRoomWithBalcony">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyRoom"/>
+        <rdfs:label xml:lang="pt">Quarto Familiar Com Sacada</rdfs:label>
+        <rdfs:label xml:lang="pt">Quarto Familiar com Varanda</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilySuiteWithSeaView -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilySuiteWithSeaView">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyRoom"/>
+        <rdfs:label xml:lang="pt">Suite Familiar com Vista para o Mar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyWithOlderChildren -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyWithOlderChildren">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Family"/>
+        <rdfs:label xml:lang="pt">Família com Filhos Mais Velhos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyWithYoungChildren -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyWithYoungChildren">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Family"/>
+        <rdfs:label xml:lang="pt">Família com Filhos Mais Jovens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FirstClass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FirstClass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Luxury"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Standard"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorComfort"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorFirstClass"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorLuxury"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist"/>
+        <rdfs:label xml:lang="pt">Primeira Classe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FitnessCenter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FitnessCenter">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Gym"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentre"/>
+        <rdfs:label xml:lang="es">Gimnasio</rdfs:label>
+        <rdfs:label xml:lang="pt">Ginásio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Formula1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Formula1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GameRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GameRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Sala de Jogos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Garden -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Garden">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility"/>
+        <rdfs:label xml:lang="pt">Jardim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Gardens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Gardens">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Jardins</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GroupOfFriends -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GroupOfFriends">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType"/>
+        <rdfs:label xml:lang="pt">Grupo de Amigos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Guest-chosenDailyNewspaperDelivery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Guest-chosenDailyNewspaperDelivery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestHouse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestHouse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation"/>
+        <rdfs:label xml:lang="pt">Casa de Hóspedes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType">
+        <rdfs:label xml:lang="pt">Tipo de Hóspede</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Gym -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Gym">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentre"/>
+        <rdfs:label xml:lang="pt">Ginásio</rdfs:label>
+        <rdfs:label xml:lang="pt">Sala de ginástica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hairdresser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hairdresser">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Cabeleireiro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hallway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hallway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Corredor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HeatingSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HeatingSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Sistema de Aquecimento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HiltonHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HiltonHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HistoricBuilding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HistoricBuilding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Construção Histórica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HistoricCentre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HistoricCentre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Centro histórico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HolidaySettlement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HolidaySettlement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostal"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality"/>
+        <rdfs:label xml:lang="pt">Alojamento de Férias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HoneymoonSuite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HoneymoonSuite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+        <rdfs:label xml:lang="pt">Suite para Lua-de-mel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality">
+        <rdfs:label xml:lang="pt">Hospitalidade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality"/>
+        <rdfs:label xml:lang="pt">Hostal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Inn"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension"/>
+        <rdfs:label xml:lang="pt">Albergue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Room"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom"/>
+        <rdfs:label xml:lang="pt">Quarto de albergue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Inn"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension"/>
+        <rdfs:label xml:lang="pt">Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+        <rdfs:label xml:lang="pt">Categorias de Hotéis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="pt">Rede de hotéis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelF1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelF1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Room"/>
+        <rdfs:label xml:lang="pt">Quarto de hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HouseKeeping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HouseKeeping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+        <rdfs:label xml:lang="pt">Serviço de Limpeza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HyattHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HyattHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HydromassageJacuzzi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HydromassageJacuzzi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentre"/>
+        <rdfs:label xml:lang="es">Baño remolino</rdfs:label>
+        <rdfs:label xml:lang="es">Hidromasaje</rdfs:label>
+        <rdfs:label xml:lang="pt">Hidromassagem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HygieneProducts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HygieneProducts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility"/>
+        <rdfs:label xml:lang="pt">Produtos de Higiene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IberostarHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IberostarHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Ibis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Ibis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IceHotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IceHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+        <rdfs:comment>The Ice Hotel in Jukkasjärvi, Sweden, and the Hotel de Glace in Duschenay, Canada, melt every spring and are rebuilt each winter; the Mammut Snow Hotel in Finland is located within the walls of the Kemi snow castle; and the Lainio Snow Hotel is part of a snow village near Ylläs, Finland.</rdfs:comment>
+        <rdfs:label xml:lang="pt">Hotel de gelo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#In-roomBreakfast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#In-roomBreakfast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+        <rdfs:label xml:lang="pt">Café da Manhã no Quarto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IndividualTraveller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IndividualTraveller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType"/>
+        <rdfs:label xml:lang="pt">Viajante Sozinho</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IndoorSwimmingPool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IndoorSwimmingPool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OutdoorSwimmingPool"/>
+        <rdfs:label xml:lang="pt">Piscina coberta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IndoorSwimmingPoolTimetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IndoorSwimmingPoolTimetable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Timetable"/>
+        <rdfs:label xml:lang="pt">Horário da Piscina Coberta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Inn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Inn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension"/>
+        <rdfs:label xml:lang="pt">Pousada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility"/>
+        <rdfs:label xml:lang="pt">Instalação interna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternetAccess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternetAccess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Acesso à Internet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternetPrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternetPrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price"/>
+        <rdfs:label xml:lang="pt">Preço da Internet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Iron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Iron">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Ferro de Engomar</rdfs:label>
+        <rdfs:label xml:lang="pt">Ferro de Passar Roupa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IroningBoard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IroningBoard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Mesa de Passar Roupa</rdfs:label>
+        <rdfs:label xml:lang="pt">Táboa de Engomar</rdfs:label>
+        <rdfs:label xml:lang="pt">Táboa de Passar Roupa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Kettle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Kettle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Chaleira</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#KidsClub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#KidsClub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Clube para crianças</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Kitchen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Kitchen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Cozinha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#KitchenStaff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#KitchenStaff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff"/>
+        <rdfs:label xml:lang="pt">Funcionários da Cozinha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Lamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Lamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Candeeiro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Laundry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Laundry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Lavanderia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#LaundryRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#LaundryRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Laundry"/>
+        <rdfs:label xml:lang="es">Cuarto de lavado</rdfs:label>
+        <rdfs:label xml:lang="pt">Sala de lavanderia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#LaundryService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#LaundryService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Laundry"/>
+        <rdfs:label xml:lang="es">Servicios de lavandería</rdfs:label>
+        <rdfs:label xml:lang="pt">Serviço de lavanderia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#LeisureStaff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#LeisureStaff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff"/>
+        <rdfs:label xml:lang="pt">Funcionários da Área de Lazer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Location">
+        <rdfs:label xml:lang="pt">Endereço</rdfs:label>
+        <rdfs:label xml:lang="pt">Morada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#LuggageRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#LuggageRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Sala de Malas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Lunch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Lunch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meal"/>
+        <rdfs:label xml:lang="pt">Almoço</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Luxury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Luxury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Standard"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorComfort"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorFirstClass"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorLuxury"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist"/>
+        <rdfs:label xml:lang="pt">Luxo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#LuxuryApartment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#LuxuryApartment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom"/>
+        <rdfs:label xml:lang="pt">Apartamento de Luxo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#MGallery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#MGallery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ManualKettle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ManualKettle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Kettle"/>
+        <rdfs:label xml:lang="es">Hervidor manual</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#MarriottHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#MarriottHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Massage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Massage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentre"/>
+        <rdfs:label xml:lang="es">Masaje</rdfs:label>
+        <rdfs:label xml:lang="pt">Massagem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Mattress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Mattress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Colchão</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#MatureCouple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#MatureCouple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Couple"/>
+        <rdfs:label xml:lang="pt">Casal Maduro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meal">
+        <rdfs:label xml:lang="pt">Refeição</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meeting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meeting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Reunião</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#MeetingLounge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#MeetingLounge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meeting"/>
+        <rdfs:label xml:lang="es">Sala de reuniones</rdfs:label>
+        <rdfs:label xml:lang="pt">Sala de reunião</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Mercure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Mercure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Mirror -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Mirror">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Espelho</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Monument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Monument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Monumento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension"/>
+        <rdfs:label xml:lang="pt">Motel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Museum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Museum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Museu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Novotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Novotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OneBedroomApartment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OneBedroomApartment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom"/>
+        <rdfs:label xml:lang="pt">Apartamento com Cama Individual</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Orbis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Orbis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension"/>
+        <rdfs:label xml:lang="pt">Outra hospitalidade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OutdoorSwimmingPool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OutdoorSwimmingPool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility"/>
+        <rdfs:label xml:lang="pt">Piscina exterior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OutdoorSwimmingPoolTimetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OutdoorSwimmingPoolTimetable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Timetable"/>
+        <rdfs:label xml:lang="pt">Horário da Piscina Externa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Park -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Park">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Parque</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Parking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Parking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Estacionamento</rdfs:label>
+        <rdfs:label xml:lang="pt">Parque de Estacionamento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ParkingPrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ParkingPrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price"/>
+        <rdfs:label xml:lang="pt">Preço do Estacionamento</rdfs:label>
+        <rdfs:label xml:lang="pt">Preço do Parqueamento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation"/>
+        <rdfs:label xml:lang="pt">Pensão</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PestanaGroupHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PestanaGroupHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pillow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pillow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Travesseiro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Playground -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Playground">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Parque Infantil</rdfs:label>
+        <rdfs:label xml:lang="pt">Praça de Brinquedos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest">
+        <rdfs:label xml:lang="pt">Pontos de interesse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PoolBar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PoolBar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility"/>
+        <rdfs:label xml:lang="pt">Bar da piscina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PortoBayHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PortoBayHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PostalCode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PostalCode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Location"/>
+        <rdfs:label xml:lang="pt">Código Postal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price">
+        <rdfs:label xml:lang="pt">Preço</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pullman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pullman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#QueenTwoBedroomApartment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#QueenTwoBedroomApartment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom"/>
+        <rdfs:label xml:lang="pt">Apartamento Queen com Duas Camas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RadissonHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RadissonHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Rating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Rating">
+        <rdfs:label xml:lang="pt">Avaliação da Acomodação</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ReadingLounge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ReadingLounge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Sala de leitura</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Reception -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Reception">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff"/>
+        <rdfs:label xml:lang="pt">Funcionários da Receção</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Refrigerator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Refrigerator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Frigobar</rdfs:label>
+        <rdfs:label xml:lang="pt">Minibar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Restaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Restaurante</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RestaurantPrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RestaurantPrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price"/>
+        <rdfs:label xml:lang="pt">Preço do Restaurante</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RestaurantStaff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RestaurantStaff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff"/>
+        <rdfs:label xml:lang="pt">Funcionários do Restaurante</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RestaurantTimetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RestaurantTimetable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Timetable"/>
+        <rdfs:label xml:lang="pt">Horário do Restaurante</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Room -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Room">
+        <rdfs:label xml:lang="pt">Quarto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility"/>
+        <rdfs:label xml:lang="pt">Facilidades do Quarto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomPrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomPrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price"/>
+        <rdfs:label xml:lang="pt">Preço do Quarto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+        <rdfs:label xml:lang="pt">Serviço de Quarto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Sauna -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Sauna">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentre"/>
+        <rdfs:label xml:lang="es">Sauna</rdfs:label>
+        <rdfs:label xml:lang="pt">Sauna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ShoeShine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ShoeShine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Engraxamento de Sapatos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Shopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Shopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Centro comercial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ShowerBath -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ShowerBath">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility"/>
+        <rdfs:label xml:lang="pt">Chuveiro</rdfs:label>
+        <rdfs:label xml:lang="pt">Duche</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SingleRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SingleRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#StandardRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Suite"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TripleRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Twin"/>
+        <rdfs:label xml:lang="pt">Quarto de solteiro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Sink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Sink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility"/>
+        <rdfs:label xml:lang="pt">Lavatório</rdfs:label>
+        <rdfs:label xml:lang="pt">Pia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SmokingArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SmokingArea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Área de Fumadores</rdfs:label>
+        <rdfs:label xml:lang="pt">Área de Fumantes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Snacks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Snacks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Salgados</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SoccerSquare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SoccerSquare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Square"/>
+        <rdfs:label xml:lang="es">Campo de fútbol</rdfs:label>
+        <rdfs:label xml:lang="pt">Quadra de futebol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Sofitel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Sofitel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Centro de spa</rdfs:label>
+        <rdfs:label xml:lang="pt">Spa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentreTimetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentreTimetable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Timetable"/>
+        <rdfs:label xml:lang="pt">Horário do Spa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Square -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Square">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Quadra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Stadium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Stadium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Estádio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff">
+        <rdfs:label xml:lang="pt">Quadro de Funcionários</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Stair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Stair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Escada</rdfs:label>
+        <rdfs:label xml:lang="pt">Escadaria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Standard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Standard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorComfort"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorFirstClass"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorLuxury"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist"/>
+        <rdfs:label xml:lang="pt">Padrão</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#StandardRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#StandardRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Suite"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TripleRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Twin"/>
+        <rdfs:label xml:lang="pt">Quarto standard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SteamIron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SteamIron">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Iron"/>
+        <rdfs:label xml:lang="pt">Ferro a Vapor</rdfs:label>
+        <rdfs:label xml:lang="es">Plancha a vapor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Street -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Street">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Location"/>
+        <rdfs:label xml:lang="pt">Rua</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#StudioApartment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#StudioApartment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom"/>
+        <rdfs:label xml:lang="pt">Apartamento Studio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Suite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Suite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TripleRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Twin"/>
+        <rdfs:label xml:lang="pt">Suíte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuiteNovotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuiteNovotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorComfort -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorComfort">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorFirstClass"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorLuxury"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist"/>
+        <rdfs:label xml:lang="pt">Conforto Superior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorFirstClass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorFirstClass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorLuxury"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist"/>
+        <rdfs:label xml:lang="pt">Conforto classe superior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorLuxury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorLuxury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist"/>
+        <rdfs:label xml:lang="pt">Luxo superior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist"/>
+        <rdfs:label xml:lang="pt">Padrão superior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist"/>
+        <rdfs:label xml:lang="pt">Turista superior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SwimmingPoolStaff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SwimmingPoolStaff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff"/>
+        <rdfs:label xml:lang="pt">Funcionários da Piscina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility"/>
+        <rdfs:label xml:lang="pt">Torneira</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Telephone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Telephone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Telefone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Television -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Television">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">TV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TennisSquare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TennisSquare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Square"/>
+        <rdfs:label xml:lang="es">Pista de tenis</rdfs:label>
+        <rdfs:label xml:lang="pt">Quadra de tênis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Terrace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Terrace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Sacada</rdfs:label>
+        <rdfs:label xml:lang="pt">Terraço</rdfs:label>
+        <rdfs:label xml:lang="pt">Varanda</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Theatre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Theatre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Teatro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ThreeBedroomApartment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ThreeBedroomApartment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom"/>
+        <rdfs:label xml:lang="pt">Apartamento com 3 Camas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Timetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Timetable">
+        <rdfs:label xml:lang="pt">Horário</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TivoliHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TivoliHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TobaccoShop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TobaccoShop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:label xml:lang="pt">Tabacaria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Toilet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Toilet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility"/>
+        <rdfs:label xml:lang="pt">Casa de Banho</rdfs:label>
+        <rdfs:label xml:lang="pt">Lavatório</rdfs:label>
+        <rdfs:label xml:lang="pt">Sanita</rdfs:label>
+        <rdfs:label xml:lang="pt">Vaso Sanitário</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TourDesk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TourDesk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service"/>
+        <rdfs:label xml:lang="pt">Posto de Turismo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory"/>
+        <rdfs:label xml:lang="pt">Turista</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Towel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Towel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility"/>
+        <rdfs:label xml:lang="pt">Toalha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TreeHouseHotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TreeHouseHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+        <rdfs:comment>Some hotels are built with living trees as structural elements, for example the Costa Rica Tree House in the Gandoca-Manzanillo Wildlife Refuge, Costa Rica; the Treetops Hotel in Aberdare National Park, Kenya; the Ariau Towers near Manaus, Brazil, on the Rio Negro in the Amazon; and Bayram&apos;s Tree Houses in Olympos, Turkey.</rdfs:comment>
+        <rdfs:label xml:lang="pt">Hotel casa da árvore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TripleRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TripleRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Twin"/>
+        <rdfs:label xml:lang="pt">Quarto triplo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TurkishBath -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TurkishBath">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentre"/>
+        <rdfs:label xml:lang="pt">Banho Turco</rdfs:label>
+        <rdfs:label xml:lang="es">Baño turco</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Twin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Twin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom"/>
+        <rdfs:label xml:lang="pt">Duplo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TwinPrivateSharedBathroom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TwinPrivateSharedBathroom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom"/>
+        <rdfs:label xml:lang="pt">Twin Privado com Banheiro Compartilhado</rdfs:label>
+        <rdfs:label xml:lang="pt">Twin Privado com Casa de Banho Compartilhada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TwoBedroomApartment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TwoBedroomApartment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom"/>
+        <rdfs:label xml:lang="pt">Apartamento com 2 Camas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TwoBedroomWithTerrace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TwoBedroomWithTerrace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom"/>
+        <rdfs:label xml:lang="pt">Duas Camas com Terraço</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#UnderWaterHotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#UnderWaterHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel"/>
+        <rdfs:comment>Some hotels have accommodation underwater, such as Utter Inn in Lake Mälaren, Sweden. Hydropolis, project cancelled 2004 in Dubai, would have had suites on the bottom of the Persian Gulf, and Jules Undersea Lodge in Key Largo, Florida requires scuba diving to access its rooms.</rdfs:comment>
+        <rdfs:label xml:lang="pt">Hotel aquático</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#University -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#University">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest"/>
+        <rdfs:label xml:lang="pt">Universidade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#VilaGaléHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#VilaGaléHotels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#WallSocket -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#WallSocket">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Tomada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Wardrobe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Wardrobe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Guarda-roupa</rdfs:label>
+        <rdfs:label xml:lang="pt">Roupeiro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Wi-FiZone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Wi-FiZone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility"/>
+        <rdfs:label xml:lang="pt">Rede Sem Fio</rdfs:label>
+        <rdfs:label xml:lang="pt">Zona de Wi-Fi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#YoungCouple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#YoungCouple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Couple"/>
+        <rdfs:label xml:lang="pt">Casal Jovem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#10BedFemaleDorm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#10BedFemaleDorm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom"/>
+        <rdfs:label xml:lang="pt">Quarto Feminino com 10 Camas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#10BedMixedDorm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#10BedMixedDorm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom"/>
+        <rdfs:label xml:lang="pt">Quarto Misto com 10 Camas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#12BedFemaleDorm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#12BedFemaleDorm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom"/>
+        <rdfs:label xml:lang="pt">Quarto Feminino com 12 Camas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#12BedMixedDorm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#12BedMixedDorm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom"/>
+        <rdfs:label xml:lang="pt">Quarto Misto com 12 Camas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#4BedFemaleDorm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#4BedFemaleDorm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom"/>
+        <rdfs:label xml:lang="pt">Quarto Feminino com 4 Camas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#4BedMixedDorm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#4BedMixedDorm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom"/>
+        <rdfs:label xml:lang="pt">Quarto Misto com 4 Camas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#6BedFemaleDorm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#6BedFemaleDorm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom"/>
+        <rdfs:label xml:lang="pt">Quarto Feminino com 6 Camas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#6BedMixedDorm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#6BedMixedDorm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom"/>
+        <rdfs:label xml:lang="pt">Quarto misto com 6 Camas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#8BedFemaleDorm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#8BedFemaleDorm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom"/>
+        <rdfs:label xml:lang="pt">Quarto Feminino com 8 Camas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#8BedMixedDorm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#8BedMixedDorm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom"/>
+        <rdfs:label xml:lang="pt">Quarto Misto com 8 Camas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ThalassaSea&amp;Spa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ThalassaSea&amp;Spa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Co-worker"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Couple"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Family"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GroupOfFriends"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IndividualTraveller"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TwinPrivateSharedBathroom"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#10BedFemaleDorm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#10BedMixedDorm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#12BedFemaleDorm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#12BedMixedDorm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#4BedFemaleDorm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#4BedMixedDorm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#6BedFemaleDorm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#6BedMixedDorm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#8BedFemaleDorm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#8BedMixedDorm"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
