@@ -1,0 +1,517 @@
+term1,term2,relation
+Casa de Hóspedes,Alojamento,hypo
+Hostal,Alojamento,hypo
+Albergue,Alojamento,hypo
+Pousada,Alojamento,hypo
+Acomodação,Alojamento,hypo
+Pensão,Alojamento,hypo
+Bangalô e Campismo,Alojamento,hypo
+Hotel Flutuante,Alojamento,hypo
+Apartamento,Alojamento,hypo
+Outra hospitalidade,Alojamento,hypo
+Cama e café da manhã,Alojamento,hypo
+Alojamento de Férias,Alojamento,hypo
+Hotel,Alojamento,hypo
+Motel,Alojamento,hypo
+Cidade,Endereço,hypo
+Código Postal,Endereço,hypo
+País,Endereço,hypo
+Endereço,Endereço,hypo
+Rua,Endereço,hypo
+Cidade,Endereço,hypo
+Código Postal,Endereço,hypo
+País,Endereço,hypo
+Endereço,Endereço,hypo
+Rua,Endereço,hypo
+Facilidade,Facilidade,hypo
+Facilidades da Casa de Banho,Facilidade,hypo
+Instalação interna,Facilidade,hypo
+Facilidades do Quarto,Facilidade,hypo
+Acesso para Deficientes,Facilidade,hypo
+Instalação externa,Facilidade,hypo
+Motorista,Facilidade,hypo
+Horário do Restaurante,Horário,hypo
+Horário do Spa,Horário,hypo
+Horário da Piscina Externa,Horário,hypo
+Horário da Piscina Coberta,Horário,hypo
+Horário,Horário,hypo
+Monumento,Pontos de interesse,hypo
+Centro comercial,Pontos de interesse,hypo
+Estação de Autocarros,Pontos de interesse,hypo
+Pontos de interesse,Pontos de interesse,hypo
+Museu,Pontos de interesse,hypo
+Igreja,Pontos de interesse,hypo
+Jardins,Pontos de interesse,hypo
+Centro histórico,Pontos de interesse,hypo
+Arena,Pontos de interesse,hypo
+Parada de Ônibus,Pontos de interesse,hypo
+Parque,Pontos de interesse,hypo
+Teatro,Pontos de interesse,hypo
+Aeroporto,Pontos de interesse,hypo
+Estádio,Pontos de interesse,hypo
+Construção Histórica,Pontos de interesse,hypo
+Centro da cidade,Pontos de interesse,hypo
+Universidade,Pontos de interesse,hypo
+Praia,Pontos de interesse,hypo
+Preço,Preço,hypo
+Preço do Quarto,Preço,hypo
+Preço do Estacionamento,Preço,hypo
+Preço do Café,Preço,hypo
+Preço da Internet,Preço,hypo
+Preço do Berço,Preço,hypo
+Preço do Restaurante,Preço,hypo
+Preço do Bar,Preço,hypo
+Preço do Café da Manhã,Preço,hypo
+Gerência,Quadro de Funcionários,hypo
+Funcionários da Receção,Quadro de Funcionários,hypo
+Porteiro,Quadro de Funcionários,hypo
+Funcionários da Área de Lazer,Quadro de Funcionários,hypo
+Funcionários do Bar,Quadro de Funcionários,hypo
+Funcionários da Limpeza,Quadro de Funcionários,hypo
+Animador,Quadro de Funcionários,hypo
+Funcionários do Restaurante,Quadro de Funcionários,hypo
+Funcionários da Cozinha,Quadro de Funcionários,hypo
+Funcionários da Piscina,Quadro de Funcionários,hypo
+Quadro de Funcionários,Quadro de Funcionários,hypo
+Quarto de hotel,Quarto,hypo
+Tipos de Quarto em Apartamentos,Quarto,hypo
+Quarto de albergue,Quarto,hypo
+Quarto,Quarto,hypo
+Refeição,Refeição,hypo
+Café da Manhã,Refeição,hypo
+Almoço,Refeição,hypo
+Jantar,Refeição,hypo
+Serviço de Limpeza,Service,hypo
+Babá,Service,hypo
+,Service,hypo
+Porteiro,Service,hypo
+Serviço de Câmbio,Service,hypo
+Serviço de Quarto,Service,hypo
+Aluguel de Veículos,Service,hypo
+Serviço de Limpeza a Seco,Service,hypo
+Café da Manhã no Quarto,Service,hypo
+Recepção,Service,hypo
+Suite para Lua-de-mel,Service,hypo
+Posto de Turismo,Service,hypo
+Aluguel de Bicicletas,Service,hypo
+,Service,hypo
+Serviço de Check Out,Service,hypo
+Transporte para o Aeroporto,Service,hypo
+Casal,Tipo de hóspede,hypo
+Família,Tipo de hóspede,hypo
+Colega de Trabalho,Tipo de hóspede,hypo
+Viajante Sozinho,Tipo de hóspede,hypo
+Grupo de Amigos,Tipo de hóspede,hypo
+Viajante de Negócios,Tipo de hóspede,hypo
+Tipo de Hóspede,Tipo de hóspede,hypo
+Alojamento,Casa de Hóspedes,hyper
+Alojamento,Hostal,hyper
+Alojamento,Albergue,hyper
+Alojamento,Pousada,hyper
+Alojamento,Acomodação,hyper
+Alojamento,Pensão,hyper
+Alojamento,Bangalô e Campismo,hyper
+Alojamento,Hotel Flutuante,hyper
+Alojamento,Apartamento,hyper
+Alojamento,Outra hospitalidade,hyper
+Alojamento,Cama e café da manhã,hyper
+Alojamento,Alojamento de Férias,hyper
+Alojamento,Hotel,hyper
+Alojamento,Motel,hyper
+Endereço,Cidade,hyper
+Endereço,Código Postal,hyper
+Endereço,País,hyper
+Endereço,Endereço,hyper
+Endereço,Rua,hyper
+Endereço,Cidade,hyper
+Endereço,Código Postal,hyper
+Endereço,País,hyper
+Endereço,Endereço,hyper
+Endereço,Rua,hyper
+Facilidade,Facilidade,hyper
+Facilidade,Facilidades da Casa de Banho,hyper
+Facilidade,Instalação interna,hyper
+Facilidade,Facilidades do Quarto,hyper
+Facilidade,Acesso para Deficientes,hyper
+Facilidade,Instalação externa,hyper
+Facilidade,Motorista,hyper
+Horário,Horário do Restaurante,hyper
+Horário,Horário do Spa,hyper
+Horário,Horário da Piscina Externa,hyper
+Horário,Horário da Piscina Coberta,hyper
+Horário,Horário,hyper
+Pontos de interesse,Monumento,hyper
+Pontos de interesse,Centro comercial,hyper
+Pontos de interesse,Estação de Autocarros,hyper
+Pontos de interesse,Pontos de interesse,hyper
+Pontos de interesse,Museu,hyper
+Pontos de interesse,Igreja,hyper
+Pontos de interesse,Jardins,hyper
+Pontos de interesse,Centro histórico,hyper
+Pontos de interesse,Arena,hyper
+Pontos de interesse,Parada de Ônibus,hyper
+Pontos de interesse,Parque,hyper
+Pontos de interesse,Teatro,hyper
+Pontos de interesse,Aeroporto,hyper
+Pontos de interesse,Estádio,hyper
+Pontos de interesse,Construção Histórica,hyper
+Pontos de interesse,Centro da cidade,hyper
+Pontos de interesse,Universidade,hyper
+Pontos de interesse,Praia,hyper
+Preço,Preço,hyper
+Preço,Preço do Quarto,hyper
+Preço,Preço do Estacionamento,hyper
+Preço,Preço do Café,hyper
+Preço,Preço da Internet,hyper
+Preço,Preço do Berço,hyper
+Preço,Preço do Restaurante,hyper
+Preço,Preço do Bar,hyper
+Preço,Preço do Café da Manhã,hyper
+Quadro de Funcionários,Gerência,hyper
+Quadro de Funcionários,Funcionários da Receção,hyper
+Quadro de Funcionários,Porteiro,hyper
+Quadro de Funcionários,Funcionários da Área de Lazer,hyper
+Quadro de Funcionários,Funcionários do Bar,hyper
+Quadro de Funcionários,Funcionários da Limpeza,hyper
+Quadro de Funcionários,Animador,hyper
+Quadro de Funcionários,Funcionários do Restaurante,hyper
+Quadro de Funcionários,Funcionários da Cozinha,hyper
+Quadro de Funcionários,Funcionários da Piscina,hyper
+Quadro de Funcionários,Quadro de Funcionários,hyper
+Quarto,Quarto de hotel,hyper
+Quarto,Tipos de Quarto em Apartamentos,hyper
+Quarto,Quarto de albergue,hyper
+Quarto,Quarto,hyper
+Refeição,Refeição,hyper
+Refeição,Café da Manhã,hyper
+Refeição,Almoço,hyper
+Refeição,Jantar,hyper
+Service,Serviço de Limpeza,hyper
+Service,Babá,hyper
+Service,,hyper
+Service,Porteiro,hyper
+Service,Serviço de Câmbio,hyper
+Service,Serviço de Quarto,hyper
+Service,Aluguel de Veículos,hyper
+Service,Serviço de Limpeza a Seco,hyper
+Service,Café da Manhã no Quarto,hyper
+Service,Recepção,hyper
+Service,Suite para Lua-de-mel,hyper
+Service,Posto de Turismo,hyper
+Service,Aluguel de Bicicletas,hyper
+Service,,hyper
+Service,Serviço de Check Out,hyper
+Service,Transporte para o Aeroporto,hyper
+Tipo de hóspede,Casal,hyper
+Tipo de hóspede,Família,hyper
+Tipo de hóspede,Colega de Trabalho,hyper
+Tipo de hóspede,Viajante Sozinho,hyper
+Tipo de hóspede,Grupo de Amigos,hyper
+Tipo de hóspede,Viajante de Negócios,hyper
+Tipo de hóspede,Tipo de Hóspede,hyper
+Hotel cápsula,Hotel,hypo
+Hotel casa da árvore,Hotel,hypo
+Hotel de gelo,Hotel,hypo
+Hotel Casamata,Hotel,hypo
+Hotel,Hotel,hypo
+Hotel aquático,Hotel,hypo
+Hotel adega,Hotel,hypo
+Ferro de Engomar,Facilidade do quarto,hypo
+Cama,Facilidade do quarto,hypo
+Frigobar,Facilidade do quarto,hypo
+Travesseiro,Facilidade do quarto,hypo
+Colchão,Facilidade do quarto,hypo
+Alcatifa,Facilidade do quarto,hypo
+Espelho,Facilidade do quarto,hypo
+Mesa de Passar Roupa,Facilidade do quarto,hypo
+Candeeiro,Facilidade do quarto,hypo
+Tomada,Facilidade do quarto,hypo
+TV,Facilidade do quarto,hypo
+Sacada,Facilidade do quarto,hypo
+Telefone,Facilidade do quarto,hypo
+Máquina de Café,Facilidade do quarto,hypo
+Facilidades do Quarto,Facilidade do quarto,hypo
+Cozinha,Facilidade do quarto,hypo
+Cortina,Facilidade do quarto,hypo
+Guarda-roupa,Facilidade do quarto,hypo
+Chaleira,Facilidade do quarto,hypo
+Salgados,Facilidade do quarto,hypo
+Rede Sem Fio,Facilidade do quarto,hypo
+Chuveiro,Facilidade do banheiro,hypo
+Lavatório,Facilidade do banheiro,hypo
+Torneira,Facilidade do banheiro,hypo
+Roupão,Facilidade do banheiro,hypo
+Banheira,Facilidade do banheiro,hypo
+Facilidades da Casa de Banho,Facilidade do banheiro,hypo
+Produtos de Higiene,Facilidade do banheiro,hypo
+Secador,Facilidade do banheiro,hypo
+Toalha,Facilidade do banheiro,hypo
+Balança,Facilidade do banheiro,hypo
+Casa de Banho,Facilidade do banheiro,hypo
+Estacionamento,Instalação Externa,hypo
+Jardim,Instalação Externa,hypo
+Instalação externa,Instalação Externa,hypo
+Golfe,Instalação Externa,hypo
+Acesso à Internet,Instalação Externa,hypo
+Rede Sem Fio,Instalação Externa,hypo
+Jacuzzi Exterior,Instalação Externa,hypo
+Quadra,Instalação Externa,hypo
+Bar da piscina,Instalação Externa,hypo
+Piscina exterior,Instalação Externa,hypo
+Estacionamento,Instalação Interna,hypo
+Clube para crianças,Instalação Interna,hypo
+Centro de spa,Instalação Interna,hypo
+Banheiro,Instalação Interna,hypo
+Sala de leitura,Instalação Interna,hypo
+Discoteca,Instalação Interna,hypo
+Quadra,Instalação Interna,hypo
+Tabacaria,Instalação Interna,hypo
+Elevador,Instalação Interna,hypo
+Lavanderia,Instalação Interna,hypo
+Engraxamento de Sapatos,Instalação Interna,hypo
+Sala de Malas,Instalação Interna,hypo
+Berço,Instalação Interna,hypo
+Cassino,Instalação Interna,hypo
+Salão de Baile,Instalação Interna,hypo
+Sala de Jogos,Instalação Interna,hypo
+Parque Infantil,Instalação Interna,hypo
+Área de Fumadores,Instalação Interna,hypo
+Sistema de Aquecimento,Instalação Interna,hypo
+Corredor,Instalação Interna,hypo
+Sala de Conferências,Instalação Interna,hypo
+Restaurante,Instalação Interna,hypo
+Piscina coberta,Instalação Interna,hypo
+Acesso à Internet,Instalação Interna,hypo
+Reunião,Instalação Interna,hypo
+Rede Sem Fio,Instalação Interna,hypo
+Escada,Instalação Interna,hypo
+Cabeleireiro,Instalação Interna,hypo
+Instalação interna,Instalação Interna,hypo
+Salão de beleza,Instalação Interna,hypo
+Quarto misto com 6 Camas,Quarto de albergue,hypo
+Quarto Feminino com 12 Camas,Quarto de albergue,hypo
+Quarto Feminino com 6 Camas,Quarto de albergue,hypo
+Quarto Feminino com 10 Camas,Quarto de albergue,hypo
+Quarto Feminino com 8 Camas,Quarto de albergue,hypo
+Quarto Misto com 4 Camas,Quarto de albergue,hypo
+Quarto Feminino com 4 Camas,Quarto de albergue,hypo
+Quarto Misto com 8 Camas,Quarto de albergue,hypo
+Quarto de albergue,Quarto de albergue,hypo
+Quarto Misto com 10 Camas,Quarto de albergue,hypo
+Quarto Misto com 12 Camas,Quarto de albergue,hypo
+Twin Privado com Banheiro Compartilhado,Quarto de albergue,hypo
+Quarto standard,Quarto de hotel,hypo
+Quarto de luxo,Quarto de hotel,hypo
+Quarto de casal,Quarto de hotel,hypo
+Quarto de solteiro,Quarto de hotel,hypo
+Duplo,Quarto de hotel,hypo
+Quarto Familiar,Quarto de hotel,hypo
+Suíte,Quarto de hotel,hypo
+Quarto de hotel,Quarto de hotel,hypo
+Quarto triplo,Quarto de hotel,hypo
+Apartamento Queen com Duas Camas,Tipos de quarto em apartamento,hypo
+Apartamento com 2 Camas,Tipos de quarto em apartamento,hypo
+Tipos de Quarto em Apartamentos,Tipos de quarto em apartamento,hypo
+Apartamento Studio,Tipos de quarto em apartamento,hypo
+Quarto Familiar,Tipos de quarto em apartamento,hypo
+Duas Camas com Terraço,Tipos de quarto em apartamento,hypo
+Quarto Twin de Luxo,Tipos de quarto em apartamento,hypo
+Apartamento de Luxo,Tipos de quarto em apartamento,hypo
+Quarto Duplo de Luxo,Tipos de quarto em apartamento,hypo
+Apartamento com Cama Individual,Tipos de quarto em apartamento,hypo
+Apartamento com 3 Camas,Tipos de quarto em apartamento,hypo
+Casal Jovem,Casal,hypo
+Casal,Casal,hypo
+Casal Maduro,Casal,hypo
+Família,Família,hypo
+Família com Filhos Mais Jovens,Família,hypo
+Família com Filhos Mais Velhos,Família,hypo
+Família Grande,Família,hypo
+Hotel,Hotel cápsula,hyper
+Hotel,Hotel casa da árvore,hyper
+Hotel,Hotel de gelo,hyper
+Hotel,Hotel Casamata,hyper
+Hotel,Hotel,hyper
+Hotel,Hotel aquático,hyper
+Hotel,Hotel adega,hyper
+Facilidade do quarto,Ferro de Engomar,hyper
+Facilidade do quarto,Cama,hyper
+Facilidade do quarto,Frigobar,hyper
+Facilidade do quarto,Travesseiro,hyper
+Facilidade do quarto,Colchão,hyper
+Facilidade do quarto,Alcatifa,hyper
+Facilidade do quarto,Espelho,hyper
+Facilidade do quarto,Mesa de Passar Roupa,hyper
+Facilidade do quarto,Candeeiro,hyper
+Facilidade do quarto,Tomada,hyper
+Facilidade do quarto,TV,hyper
+Facilidade do quarto,Sacada,hyper
+Facilidade do quarto,Telefone,hyper
+Facilidade do quarto,Máquina de Café,hyper
+Facilidade do quarto,Facilidades do Quarto,hyper
+Facilidade do quarto,Cozinha,hyper
+Facilidade do quarto,Cortina,hyper
+Facilidade do quarto,Guarda-roupa,hyper
+Facilidade do quarto,Chaleira,hyper
+Facilidade do quarto,Salgados,hyper
+Facilidade do quarto,Rede Sem Fio,hyper
+Facilidade do banheiro,Chuveiro,hyper
+Facilidade do banheiro,Lavatório,hyper
+Facilidade do banheiro,Torneira,hyper
+Facilidade do banheiro,Roupão,hyper
+Facilidade do banheiro,Banheira,hyper
+Facilidade do banheiro,Facilidades da Casa de Banho,hyper
+Facilidade do banheiro,Produtos de Higiene,hyper
+Facilidade do banheiro,Secador,hyper
+Facilidade do banheiro,Toalha,hyper
+Facilidade do banheiro,Balança,hyper
+Facilidade do banheiro,Casa de Banho,hyper
+Instalação Externa,Estacionamento,hyper
+Instalação Externa,Jardim,hyper
+Instalação Externa,Instalação externa,hyper
+Instalação Externa,Golfe,hyper
+Instalação Externa,Acesso à Internet,hyper
+Instalação Externa,Rede Sem Fio,hyper
+Instalação Externa,Jacuzzi Exterior,hyper
+Instalação Externa,Quadra,hyper
+Instalação Externa,Bar da piscina,hyper
+Instalação Externa,Piscina exterior,hyper
+Instalação Interna,Estacionamento,hyper
+Instalação Interna,Clube para crianças,hyper
+Instalação Interna,Centro de spa,hyper
+Instalação Interna,Banheiro,hyper
+Instalação Interna,Sala de leitura,hyper
+Instalação Interna,Discoteca,hyper
+Instalação Interna,Quadra,hyper
+Instalação Interna,Tabacaria,hyper
+Instalação Interna,Elevador,hyper
+Instalação Interna,Lavanderia,hyper
+Instalação Interna,Engraxamento de Sapatos,hyper
+Instalação Interna,Sala de Malas,hyper
+Instalação Interna,Berço,hyper
+Instalação Interna,Cassino,hyper
+Instalação Interna,Salão de Baile,hyper
+Instalação Interna,Sala de Jogos,hyper
+Instalação Interna,Parque Infantil,hyper
+Instalação Interna,Área de Fumadores,hyper
+Instalação Interna,Sistema de Aquecimento,hyper
+Instalação Interna,Corredor,hyper
+Instalação Interna,Sala de Conferências,hyper
+Instalação Interna,Restaurante,hyper
+Instalação Interna,Piscina coberta,hyper
+Instalação Interna,Acesso à Internet,hyper
+Instalação Interna,Reunião,hyper
+Instalação Interna,Rede Sem Fio,hyper
+Instalação Interna,Escada,hyper
+Instalação Interna,Cabeleireiro,hyper
+Instalação Interna,Instalação interna,hyper
+Instalação Interna,Salão de beleza,hyper
+Quarto de albergue,Quarto misto com 6 Camas,hyper
+Quarto de albergue,Quarto Feminino com 12 Camas,hyper
+Quarto de albergue,Quarto Feminino com 6 Camas,hyper
+Quarto de albergue,Quarto Feminino com 10 Camas,hyper
+Quarto de albergue,Quarto Feminino com 8 Camas,hyper
+Quarto de albergue,Quarto Misto com 4 Camas,hyper
+Quarto de albergue,Quarto Feminino com 4 Camas,hyper
+Quarto de albergue,Quarto Misto com 8 Camas,hyper
+Quarto de albergue,Quarto de albergue,hyper
+Quarto de albergue,Quarto Misto com 10 Camas,hyper
+Quarto de albergue,Quarto Misto com 12 Camas,hyper
+Quarto de albergue,Twin Privado com Banheiro Compartilhado,hyper
+Quarto de hotel,Quarto standard,hyper
+Quarto de hotel,Quarto de luxo,hyper
+Quarto de hotel,Quarto de casal,hyper
+Quarto de hotel,Quarto de solteiro,hyper
+Quarto de hotel,Duplo,hyper
+Quarto de hotel,Quarto Familiar,hyper
+Quarto de hotel,Suíte,hyper
+Quarto de hotel,Quarto de hotel,hyper
+Quarto de hotel,Quarto triplo,hyper
+Tipos de quarto em apartamento,Apartamento Queen com Duas Camas,hyper
+Tipos de quarto em apartamento,Apartamento com 2 Camas,hyper
+Tipos de quarto em apartamento,Tipos de Quarto em Apartamentos,hyper
+Tipos de quarto em apartamento,Apartamento Studio,hyper
+Tipos de quarto em apartamento,Quarto Familiar,hyper
+Tipos de quarto em apartamento,Duas Camas com Terraço,hyper
+Tipos de quarto em apartamento,Quarto Twin de Luxo,hyper
+Tipos de quarto em apartamento,Apartamento de Luxo,hyper
+Tipos de quarto em apartamento,Quarto Duplo de Luxo,hyper
+Tipos de quarto em apartamento,Apartamento com Cama Individual,hyper
+Tipos de quarto em apartamento,Apartamento com 3 Camas,hyper
+Casal,Casal Jovem,hyper
+Casal,Casal,hyper
+Casal,Casal Maduro,hyper
+Família,Família,hyper
+Família,Família com Filhos Mais Jovens,hyper
+Família,Família com Filhos Mais Velhos,hyper
+Família,Família Grande,hyper
+Chaleira,Chaleira,hypo
+Hervidor eléctrico,Chaleira,hypo
+Hervidor manual,Chaleira,hypo
+Ferro de Engomar,Ferro de passar roupa,hypo
+Ferro a Vapor,Ferro de passar roupa,hypo
+Campo de fútbol,Quadra,hypo
+Pista de tenis,Quadra,hypo
+Quadra,Quadra,hypo
+Baño remolino,Centro de Spa,hypo
+Sauna,Centro de Spa,hypo
+Ginásio,Centro de Spa,hypo
+Centro de spa,Centro de Spa,hypo
+Masaje,Centro de Spa,hypo
+Gimnasio,Centro de Spa,hypo
+Banho Turco,Centro de Spa,hypo
+Cuarto de lavado,Lavanderia,hypo
+Servicios de lavandería,Lavanderia,hypo
+Lavanderia,Lavanderia,hypo
+Sala de reuniones,Reunião,hypo
+Reunião,Reunião,hypo
+Categorias de Hotéis,Categoria de hotéis,hypo
+Padrão,Categoria de hotéis,hypo
+Conforto Superior,Categoria de hotéis,hypo
+Conforto classe superior,Categoria de hotéis,hypo
+Turista,Categoria de hotéis,hypo
+Primeira Classe,Categoria de hotéis,hypo
+Conforto,Categoria de hotéis,hypo
+Luxo,Categoria de hotéis,hypo
+Padrão superior,Categoria de hotéis,hypo
+Turista superior,Categoria de hotéis,hypo
+Luxo superior,Categoria de hotéis,hypo
+Suite Familiar Júnior com Vista para o Mar,Quarto Familiar,hypo
+Quarto Familiar,Quarto Familiar,hypo
+Suite Familiar com Vista para o Mar,Quarto Familiar,hypo
+Quarto Familiar Com Sacada,Quarto Familiar,hypo
+Chaleira,Chaleira,hyper
+Chaleira,Hervidor eléctrico,hyper
+Chaleira,Hervidor manual,hyper
+Ferro de passar roupa,Ferro de Engomar,hyper
+Ferro de passar roupa,Ferro a Vapor,hyper
+Quadra,Campo de fútbol,hyper
+Quadra,Pista de tenis,hyper
+Quadra,Quadra,hyper
+Centro de Spa,Baño remolino,hyper
+Centro de Spa,Sauna,hyper
+Centro de Spa,Ginásio,hyper
+Centro de Spa,Centro de spa,hyper
+Centro de Spa,Masaje,hyper
+Centro de Spa,Gimnasio,hyper
+Centro de Spa,Banho Turco,hyper
+Lavanderia,Cuarto de lavado,hyper
+Lavanderia,Servicios de lavandería,hyper
+Lavanderia,Lavanderia,hyper
+Reunião,Sala de reuniones,hyper
+Reunião,Reunião,hyper
+Categoria de hotéis,Categorias de Hotéis,hyper
+Categoria de hotéis,Padrão,hyper
+Categoria de hotéis,Conforto Superior,hyper
+Categoria de hotéis,Conforto classe superior,hyper
+Categoria de hotéis,Turista,hyper
+Categoria de hotéis,Primeira Classe,hyper
+Categoria de hotéis,Conforto,hyper
+Categoria de hotéis,Luxo,hyper
+Categoria de hotéis,Padrão superior,hyper
+Categoria de hotéis,Turista superior,hyper
+Categoria de hotéis,Luxo superior,hyper
+Quarto Familiar,Suite Familiar Júnior com Vista para o Mar,hyper
+Quarto Familiar,Quarto Familiar,hyper
+Quarto Familiar,Suite Familiar com Vista para o Mar,hyper
+Quarto Familiar,Quarto Familiar Com Sacada,hyper

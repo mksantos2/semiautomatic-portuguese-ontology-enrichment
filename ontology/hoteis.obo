@@ -1,0 +1,1450 @@
+format-version: 1.4
+ontology: http://www.semanticweb.org/ontologies/2012/4/accommodation-17042012.owl
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/accommodation-04042012.owl#Botel
+name: Hotel Flutuante
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/accommodation-04042012.owl#BungalowAndCamping
+name: Bangalô e Campismo
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/accommodation-04042012.owl#Golf
+name: Golfe
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#10BedFemaleDorm
+name: Quarto Feminino com 10 Camas
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#10BedMixedDorm
+name: Quarto Misto com 10 Camas
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#12BedFemaleDorm
+name: Quarto Feminino com 12 Camas
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#12BedMixedDorm
+name: Quarto Misto com 12 Camas
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#4BedFemaleDorm
+name: Quarto Feminino com 4 Camas
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#4BedMixedDorm
+name: Quarto Misto com 4 Camas
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#6BedFemaleDorm
+name: Quarto Feminino com 6 Camas
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#6BedMixedDorm
+name: Quarto misto com 6 Camas
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#8BedFemaleDorm
+name: Quarto Feminino com 8 Camas
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#8BedMixedDorm
+name: Quarto Misto com 8 Camas
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation
+name: Acomodação
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Adagio
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Address
+name: Endereço
+property_value: http://www.w3.org/2002/07/owl#equivalentClass http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Location
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Administration
+name: Gerência
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Airport
+name: Aeroporto
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AirportShuttle
+name: Transporte para o Aeroporto
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AllSeasons
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Ibis
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Animator
+name: Animador
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Apartment
+name: Apartamento
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BedAndBreakfast
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestHouse
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HolidaySettlement
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostal
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostel
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Inn
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom
+name: Tipos de Quarto em Apartamentos
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Room
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Arena
+name: Arena
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Babysitting
+name: Babá
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Balance
+name: Balança
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Ballroom
+name: Salão de Baile
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BarPrice
+name: Preço do Bar
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BarStaff
+name: Funcionários do Bar
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRobes
+name: Roupão
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility
+name: Facilidades da Casa de Banho
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Bathroom
+name: Banheiro
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Bathtub
+name: Banheira
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Beach
+name: Praia
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BeautySalon
+name: Salão de beleza
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Bed
+name: Cama
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BedAndBreakfast
+name: Cama e café da manhã
+comment: It is a small lodging establishment that offers overnight accommodation and breakfast, but usually does not offer other meals. Typically, bed and breakfasts are private homes with fewer than 10 bedrooms available for commercial use.\nIn Austria is also denominated Hotel Garni.
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestHouse
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HolidaySettlement
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostal
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostel
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Inn
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BestWesternHotels
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BicycleRental
+name: Aluguel de Bicicletas
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Breakfast
+name: Café da Manhã
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meal
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BreakfastPrice
+name: Preço do Café da Manhã
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BunkerHotel
+name: Hotel Casamata
+comment: The Null Stern Hotel in Teufen, Appenzellerland, Switzerland and the Concrete Mushrooms in Albania are former nuclear bunkers transformed into hotels.
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BusStation
+name: Estação de Autocarros
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BusStop
+name: Parada de Ônibus
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BusinessTraveller
+name: Viajante de Negócios
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Co-worker
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Couple
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Family
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GroupOfFriends
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IndividualTraveller
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CapsuleHotel
+name: Hotel cápsula
+comment: Capsule hotels are a type of economical hotel that are found in Japan, where people sleep in stacks of rectangular containers.
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CarRental
+name: Aluguel de Veículos
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Carpet
+name: Alcatifa
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Casino
+name: Cassino
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CaveHotel
+name: Hotel adega
+comment: Desert Cave Hotel in Coober Pedy, South Australia and the Cuevas Pedro Antonio de Alarcón (named after the author) in Guadix, Spain, as well as several hotels in Cappadocia, Turkey, are notable for being built into natural cave formations, some with rooms underground.
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CheckinService
+name: Recepção
+property_value: http://www.w3.org/2002/07/owl#equivalentClass http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Reception
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CheckoutService
+name: Serviço de Check Out
+property_value: http://www.w3.org/2002/07/owl#equivalentClass http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Reception
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ChoiceHotelsInternational
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Church
+name: Igreja
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#City
+name: Cidade
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Location
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CleaningStaff
+name: Funcionários da Limpeza
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Co-worker
+name: Colega de Trabalho
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CoffeeMachine
+name: Máquina de Café
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CoffeePrice
+name: Preço do Café
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Comfort
+name: Conforto
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FirstClass
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Luxury
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Standard
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorComfort
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorFirstClass
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorLuxury
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ConciergeService
+name: Porteiro
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ConferenceRoom
+name: Sala de Conferências
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Cot
+name: Berço
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CotPrice
+name: Preço do Berço
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Country
+name: País
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Location
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Couple
+name: Casal
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#CurrencyExchange
+name: Serviço de Câmbio
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Curtain
+name: Cortina
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DeluxeDoubleRoom
+name: Quarto Duplo de Luxo
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DeluxeRoom
+name: Quarto de luxo
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DoubleRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SingleRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#StandardRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Suite
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TripleRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Twin
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DeluxeTwinRoom
+name: Quarto Twin de Luxo
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Design
+name: Aparência
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Dinner
+name: Jantar
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meal
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DisabledAccess
+name: Acesso para Deficientes
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Disco
+name: Discoteca
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DominaHotels
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Doorman
+name: Porteiro
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DoubleRoom
+name: Quarto de casal
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SingleRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#StandardRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Suite
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TripleRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Twin
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Downtown
+name: Centro da cidade
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Driver
+name: Motorista
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#DrycleaningService
+name: Serviço de Limpeza a Seco
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Dryer
+name: Secador
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#EletricKettle
+name: Hervidor eléctrico
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Kettle
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Elevator
+name: Elevador
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#EtapHotel
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExtendedFamily
+name: Família Grande
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Family
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExteriorJacuzzi
+name: Jacuzzi Exterior
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility
+name: Instalação externa
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility
+name: Facilidade
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FairmontHotels
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Family
+name: Família
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GroupOfFriends
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyJuniorSuiteWithSeaView
+name: Suite Familiar Júnior com Vista para o Mar
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyRoom
+name: Quarto Familiar
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyRoomWithBalcony
+name: Quarto Familiar Com Sacada
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilySuiteWithSeaView
+name: Suite Familiar com Vista para o Mar
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyWithOlderChildren
+name: Família com Filhos Mais Velhos
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Family
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FamilyWithYoungChildren
+name: Família com Filhos Mais Jovens
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Family
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FirstClass
+name: Primeira Classe
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Luxury
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Standard
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorComfort
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorFirstClass
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorLuxury
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#FitnessCenter
+name: Gimnasio
+property_value: http://www.w3.org/2002/07/owl#equivalentClass http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Gym
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentre
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Formula1
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GameRoom
+name: Sala de Jogos
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Garden
+name: Jardim
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Gardens
+name: Jardins
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GroupOfFriends
+name: Grupo de Amigos
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Guest-chosenDailyNewspaperDelivery
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestHouse
+name: Casa de Hóspedes
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType
+name: Tipo de Hóspede
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Gym
+name: Ginásio
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentre
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hairdresser
+name: Cabeleireiro
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hallway
+name: Corredor
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HeatingSystem
+name: Sistema de Aquecimento
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HiltonHotels
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HistoricBuilding
+name: Construção Histórica
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HistoricCentre
+name: Centro histórico
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HolidaySettlement
+name: Alojamento de Férias
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostal
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HoneymoonSuite
+name: Suite para Lua-de-mel
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality
+name: Hospitalidade
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostal
+name: Hostal
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hostel
+name: Albergue
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Inn
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom
+name: Quarto de albergue
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Room
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel
+name: Hotel
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Inn
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory
+name: Categorias de Hotéis
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+name: Rede de hotéis
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelF1
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom
+name: Quarto de hotel
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Room
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HouseKeeping
+name: Serviço de Limpeza
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HyattHotels
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HydromassageJacuzzi
+name: Baño remolino
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentre
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HygieneProducts
+name: Produtos de Higiene
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IberostarHotels
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Ibis
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IceHotel
+name: Hotel de gelo
+comment: The Ice Hotel in Jukkasjärvi, Sweden, and the Hotel de Glace in Duschenay, Canada, melt every spring and are rebuilt each winter; the Mammut Snow Hotel in Finland is located within the walls of the Kemi snow castle; and the Lainio Snow Hotel is part of a snow village near Ylläs, Finland.
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#In-roomBreakfast
+name: Café da Manhã no Quarto
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IndividualTraveller
+name: Viajante Sozinho
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IndoorSwimmingPool
+name: Piscina coberta
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OutdoorSwimmingPool
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IndoorSwimmingPoolTimetable
+name: Horário da Piscina Coberta
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Timetable
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Inn
+name: Pousada
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+name: Instalação interna
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternetAccess
+name: Acesso à Internet
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternetPrice
+name: Preço da Internet
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Iron
+name: Ferro de Engomar
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#IroningBoard
+name: Mesa de Passar Roupa
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Kettle
+name: Chaleira
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#KidsClub
+name: Clube para crianças
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Kitchen
+name: Cozinha
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#KitchenStaff
+name: Funcionários da Cozinha
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Lamp
+name: Candeeiro
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Laundry
+name: Lavanderia
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#LaundryRoom
+name: Cuarto de lavado
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Laundry
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#LaundryService
+name: Servicios de lavandería
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Laundry
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#LeisureStaff
+name: Funcionários da Área de Lazer
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Location
+name: Endereço
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#LuggageRoom
+name: Sala de Malas
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Lunch
+name: Almoço
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meal
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Luxury
+name: Luxo
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Standard
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorComfort
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorFirstClass
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorLuxury
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#LuxuryApartment
+name: Apartamento de Luxo
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#MGallery
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ManualKettle
+name: Hervidor manual
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Kettle
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#MarriottHotels
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Massage
+name: Masaje
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentre
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Mattress
+name: Colchão
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#MatureCouple
+name: Casal Maduro
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Couple
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meal
+name: Refeição
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meeting
+name: Reunião
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#MeetingLounge
+name: Sala de reuniones
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meeting
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Mercure
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Mirror
+name: Espelho
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Monument
+name: Monumento
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Motel
+name: Motel
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Museum
+name: Museu
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Novotel
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OneBedroomApartment
+name: Apartamento com Cama Individual
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Orbis
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OtherHospitality
+name: Outra hospitalidade
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OutdoorSwimmingPool
+name: Piscina exterior
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#OutdoorSwimmingPoolTimetable
+name: Horário da Piscina Externa
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Timetable
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Park
+name: Parque
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Parking
+name: Estacionamento
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ParkingPrice
+name: Preço do Estacionamento
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pension
+name: Pensão
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Accommodation
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PestanaGroupHotels
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pillow
+name: Travesseiro
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Playground
+name: Parque Infantil
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+name: Pontos de interesse
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PoolBar
+name: Bar da piscina
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PortoBayHotels
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PostalCode
+name: Código Postal
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Location
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price
+name: Preço
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Pullman
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#QueenTwoBedroomApartment
+name: Apartamento Queen com Duas Camas
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RadissonHotels
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Rating
+name: Avaliação da Acomodação
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ReadingLounge
+name: Sala de leitura
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Reception
+name: Funcionários da Receção
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Refrigerator
+name: Frigobar
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Restaurant
+name: Restaurante
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RestaurantPrice
+name: Preço do Restaurante
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RestaurantStaff
+name: Funcionários do Restaurante
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RestaurantTimetable
+name: Horário do Restaurante
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Timetable
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Room
+name: Quarto
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+name: Facilidades do Quarto
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Facility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomPrice
+name: Preço do Quarto
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Price
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomService
+name: Serviço de Quarto
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Sauna
+name: Sauna
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentre
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ShoeShine
+name: Engraxamento de Sapatos
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Shopping
+name: Centro comercial
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ShowerBath
+name: Chuveiro
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SingleRoom
+name: Quarto de solteiro
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#StandardRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Suite
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TripleRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Twin
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Sink
+name: Lavatório
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SmokingArea
+name: Área de Fumadores
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Snacks
+name: Salgados
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SoccerSquare
+name: Campo de fútbol
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Square
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Sofitel
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentre
+name: Centro de spa
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentreTimetable
+name: Horário do Spa
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Timetable
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Square
+name: Quadra
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Stadium
+name: Estádio
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff
+name: Quadro de Funcionários
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Stair
+name: Escada
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Standard
+name: Padrão
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorComfort
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorFirstClass
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorLuxury
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#StandardRoom
+name: Quarto standard
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Suite
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TripleRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Twin
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SteamIron
+name: Ferro a Vapor
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Iron
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Street
+name: Rua
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Location
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#StudioApartment
+name: Apartamento Studio
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Suite
+name: Suíte
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TripleRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Twin
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuiteNovotel
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorComfort
+name: Conforto Superior
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorFirstClass
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorLuxury
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorFirstClass
+name: Conforto classe superior
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorLuxury
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorLuxury
+name: Luxo superior
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorStandard
+name: Padrão superior
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SuperiorTourist
+name: Turista superior
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SwimmingPoolStaff
+name: Funcionários da Piscina
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Staff
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tap
+name: Torneira
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Telephone
+name: Telefone
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Television
+name: TV
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TennisSquare
+name: Pista de tenis
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Square
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Terrace
+name: Sacada
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ThalassaSea&Spa
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#AccorHotels
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Theatre
+name: Teatro
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ThreeBedroomApartment
+name: Apartamento com 3 Camas
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Timetable
+name: Horário
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TivoliHotels
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TobaccoShop
+name: Tabacaria
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Toilet
+name: Casa de Banho
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TourDesk
+name: Posto de Turismo
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Service
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Tourist
+name: Turista
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Towel
+name: Toalha
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#BathRoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TreeHouseHotel
+name: Hotel casa da árvore
+comment: Some hotels are built with living trees as structural elements, for example the Costa Rica Tree House in the Gandoca-Manzanillo Wildlife Refuge, Costa Rica; the Treetops Hotel in Aberdare National Park, Kenya; the Ariau Towers near Manaus, Brazil, on the Rio Negro in the Amazon; and Bayram's Tree Houses in Olympos, Turkey.
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TripleRoom
+name: Quarto triplo
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom
+disjoint_from: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Twin
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TurkishBath
+name: Banho Turco
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#SpaCentre
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Twin
+name: Duplo
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TwinPrivateSharedBathroom
+name: Twin Privado com Banheiro Compartilhado
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HostelRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TwoBedroomApartment
+name: Apartamento com 2 Camas
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#TwoBedroomWithTerrace
+name: Duas Camas com Terraço
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ApartmentRoom
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#UnderWaterHotel
+name: Hotel aquático
+comment: Some hotels have accommodation underwater, such as Utter Inn in Lake Mälaren, Sweden. Hydropolis, project cancelled 2004 in Dubai, would have had suites on the bottom of the Persian Gulf, and Jules Undersea Lodge in Key Largo, Florida requires scuba diving to access its rooms.
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#University
+name: Universidade
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#VilaGaléHotels
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#WallSocket
+name: Tomada
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Wardrobe
+name: Guarda-roupa
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Wi-FiZone
+name: Rede Sem Fio
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#ExternalFacility
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#InternalFacility
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#RoomFacility
+
+[Term]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#YoungCouple
+name: Casal Jovem
+is_a: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Couple
+
+[Term]
+id: http://www.w3.org/2002/07/owl#Thing
+
+[Typedef]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#belongsTo
+domain: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel
+range: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelChain
+is_functional: true
+
+[Typedef]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasCategory
+domain: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel
+range: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#HotelCategory
+is_functional: true
+
+[Typedef]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasCountryOfOrigin
+domain: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#GuestType
+
+[Typedef]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasDistanceTo
+domain: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality
+range: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#PointsOfInterest
+is_functional: true
+
+[Typedef]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasLaundry
+domain: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality
+range: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Laundry
+is_functional: true
+
+[Typedef]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasPostalAddress
+domain: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hospitality
+range: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Address
+is_functional: true
+
+[Typedef]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#hasRoom
+domain: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel
+range: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Room
+
+[Typedef]
+id: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#offersMeetingFacility
+domain: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Hotel
+range: http://www.semanticweb.org/ontologies/2010/3/hotel-15072010.owl#Meeting

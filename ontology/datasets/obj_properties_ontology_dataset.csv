@@ -1,0 +1,9 @@
+term1,term2,relation
+Hotel,Categorias de hoteis,temCategoria
+Hotel,Rede de hoteis,pertenceA
+Tipo de Hóspede,-,temPaísDeOrigem
+Hospitalidade,Pontos de Interesse,temDistânciaA
+Hospitalidade,Localização,temEndereçoPostal
+Hotel,Quarto de Hotel,temQuarto
+Hospitalidade,Hotel,temQuarto
+Hotel,Reunião,ofereceLocalDeReunião
