@@ -1,0 +1,2079 @@
+term1,term2,relation
+hotel,Alojamento,hypo
+hotel,Alojamento,hypo
+hotel,Hotel,hypo
+hotel,Hotel cápsula,hyper
+hotel,Hotel casa da árvore,hyper
+hotel,Hotel de gelo,hyper
+hotel,Hotel Casamata,hyper
+hotel,Hotel,hyper
+hotel,Hotel aquático,hyper
+hotel,Hotel adega,hyper
+cheirar,Facilidade do quarto,hypo
+cheirar,Instalação Interna,hypo
+pronto,Endereço,hypo
+pronto,Endereço,hypo
+pronto,Categoria de hotéis,hypo
+vizinhança,Facilidade,hypo
+vizinhança,Pontos de interesse,hypo
+vizinhança,Pontos de interesse,hypo
+vizinhança,Pontos de interesse,hypo
+vizinhança,Facilidade,hyper
+vizinhança,Facilidades da Casa de Banho,hyper
+vizinhança,Instalação interna,hyper
+vizinhança,Facilidades do Quarto,hyper
+vizinhança,Acesso para Deficientes,hyper
+vizinhança,Instalação externa,hyper
+vizinhança,Motorista,hyper
+vizinhança,Instalação Externa,hypo
+champa,Endereço,hypo
+champa,Endereço,hypo
+champa,Facilidade,hypo
+champa,Pontos de interesse,hypo
+champa,Pontos de interesse,hypo
+champa,Facilidade,hyper
+champa,Facilidades da Casa de Banho,hyper
+champa,Instalação interna,hyper
+champa,Facilidades do Quarto,hyper
+champa,Acesso para Deficientes,hyper
+champa,Instalação externa,hyper
+champa,Motorista,hyper
+champa,Instalação Externa,hypo
+preço,Preço,hypo
+preço,Preço,hyper
+preço,Preço do Quarto,hyper
+preço,Preço do Estacionamento,hyper
+preço,Preço do Café,hyper
+preço,Preço da Internet,hyper
+preço,Preço do Berço,hyper
+preço,Preço do Restaurante,hyper
+preço,Preço do Bar,hyper
+preço,Preço do Café da Manhã,hyper
+época,Endereço,hypo
+época,Endereço,hypo
+ópera,Facilidade,hypo
+ópera,Pontos de interesse,hypo
+ópera,Pontos de interesse,hypo
+ópera,Pontos de interesse,hypo
+ópera,Facilidade,hyper
+ópera,Facilidades da Casa de Banho,hyper
+ópera,Instalação interna,hyper
+ópera,Facilidades do Quarto,hyper
+ópera,Acesso para Deficientes,hyper
+ópera,Instalação externa,hyper
+ópera,Motorista,hyper
+ópera,Instalação Externa,hypo
+interessar,Categoria de hotéis,hypo
+suíte,Tipo de hóspede,hypo
+suíte,Facilidade do quarto,hypo
+suíte,Facilidade do banheiro,hypo
+suíte,Quarto de hotel,hypo
+suíte,Casal,hypo
+suíte,Casal Jovem,hyper
+suíte,Casal,hyper
+suíte,Casal Maduro,hyper
+som,Tipo de hóspede,hypo
+som,Facilidade do banheiro,hypo
+som,Casal,hypo
+som,Casal Jovem,hyper
+som,Casal,hyper
+som,Casal Maduro,hyper
+banhar,Facilidade do quarto,hypo
+banhar,Facilidade do banheiro,hypo
+banhar,Facilidade do banheiro,hypo
+banhar,Facilidade do banheiro,hypo
+banhar,Instalação Interna,hypo
+casar,Tipo de hóspede,hypo
+casar,Família,hypo
+casar,Família,hyper
+casar,Família com Filhos Mais Jovens,hyper
+casar,Família com Filhos Mais Velhos,hyper
+casar,Família Grande,hyper
+casar,Categoria de hotéis,hypo
+realidade,Endereço,hypo
+realidade,Endereço,hypo
+quarto,Quarto,hypo
+quarto,Quarto de hotel,hyper
+quarto,Tipos de Quarto em Apartamentos,hyper
+quarto,Quarto de albergue,hyper
+quarto,Quarto,hyper
+impressionar,Endereço,hypo
+impressionar,Endereço,hypo
+impressionar,Tipo de hóspede,hypo
+impressionar,Família,hypo
+impressionar,Família,hyper
+impressionar,Família com Filhos Mais Jovens,hyper
+impressionar,Família com Filhos Mais Velhos,hyper
+impressionar,Família Grande,hyper
+impressionar,Categoria de hotéis,hypo
+categoria,Service,hypo
+ler,Pontos de interesse,hypo
+restaurante,Facilidade,hypo
+restaurante,Facilidade,hyper
+restaurante,Facilidades da Casa de Banho,hyper
+restaurante,Instalação interna,hyper
+restaurante,Facilidades do Quarto,hyper
+restaurante,Acesso para Deficientes,hyper
+restaurante,Instalação externa,hyper
+restaurante,Motorista,hyper
+restaurante,Instalação Interna,hypo
+estrelo,Alojamento,hypo
+estrelo,Alojamento,hypo
+estrelo,Hotel,hypo
+estrelo,Hotel cápsula,hyper
+estrelo,Hotel casa da árvore,hyper
+estrelo,Hotel de gelo,hyper
+estrelo,Hotel Casamata,hyper
+estrelo,Hotel,hyper
+estrelo,Hotel aquático,hyper
+estrelo,Hotel adega,hyper
+criança,Quarto de hotel,hypo
+cidade,Endereço,hypo
+cidade,Endereço,hypo
+cidade,Pontos de interesse,hypo
+cidade,Pontos de interesse,hypo
+toru,Endereço,hypo
+toru,Endereço,hypo
+toru,Facilidade,hypo
+toru,Pontos de interesse,hypo
+toru,Pontos de interesse,hypo
+toru,Facilidade,hyper
+toru,Facilidades da Casa de Banho,hyper
+toru,Instalação interna,hyper
+toru,Facilidades do Quarto,hyper
+toru,Acesso para Deficientes,hyper
+toru,Instalação externa,hyper
+toru,Motorista,hyper
+toru,Categoria de hotéis,hypo
+vidar,Pontos de interesse,hypo
+vidar,Pontos de interesse,hypo
+vidar,Categoria de hotéis,hypo
+bar,Refeição,hypo
+bar,Refeição,hyper
+bar,Café da Manhã,hyper
+bar,Almoço,hyper
+bar,Jantar,hyper
+bar,Instalação Interna,hypo
+detalhe,Service,hypo
+detalhe,Service,hypo
+recepção,Service,hypo
+passeio,Endereço,hypo
+passeio,Endereço,hypo
+passeio,Pontos de interesse,hypo
+passeio,Categoria de hotéis,hypo
+quadrar,Facilidade,hypo
+quadrar,Pontos de interesse,hypo
+quadrar,Pontos de interesse,hypo
+quadrar,Facilidade,hyper
+quadrar,Facilidades da Casa de Banho,hyper
+quadrar,Instalação interna,hyper
+quadrar,Facilidades do Quarto,hyper
+quadrar,Acesso para Deficientes,hyper
+quadrar,Instalação externa,hyper
+quadrar,Motorista,hyper
+quadrar,Instalação Externa,hypo
+a_este_hotel,Endereço,hypo
+a_este_hotel,Endereço,hypo
+a_este_hotel,Categoria de hotéis,hypo
+luxemburgia,Facilidade,hypo
+luxemburgia,Pontos de interesse,hypo
+luxemburgia,Pontos de interesse,hypo
+luxemburgia,Facilidade,hyper
+luxemburgia,Facilidades da Casa de Banho,hyper
+luxemburgia,Instalação interna,hyper
+luxemburgia,Facilidades do Quarto,hyper
+luxemburgia,Acesso para Deficientes,hyper
+luxemburgia,Instalação externa,hyper
+luxemburgia,Motorista,hyper
+luxemburgia,Instalação Externa,hypo
+parque,Endereço,hypo
+parque,Endereço,hypo
+parque,Pontos de interesse,hypo
+atendimento,Alojamento,hypo
+espaçar,Facilidade do quarto,hypo
+espaçar,Facilidade do quarto,hypo
+espaçar,Facilidade do quarto,hypo
+espaçar,Facilidade do banheiro,hypo
+espaçar,Facilidade do banheiro,hypo
+espaçar,Facilidade do banheiro,hypo
+espaçar,Instalação Interna,hypo
+banheiro,Facilidade do quarto,hypo
+banheiro,Facilidade do banheiro,hypo
+banheiro,Facilidade do banheiro,hypo
+banheiro,Instalação Interna,hypo
+iluminação,Facilidade do quarto,hypo
+iluminação,Facilidade do quarto,hypo
+iluminação,Facilidade do banheiro,hypo
+iluminação,Facilidade do banheiro,hypo
+confortar,Alojamento,hypo
+confortar,Quarto,hypo
+confortar,Quarto de hotel,hyper
+confortar,Tipos de Quarto em Apartamentos,hyper
+confortar,Quarto de albergue,hyper
+confortar,Quarto,hyper
+facilidade,Facilidade,hypo
+facilidade,Pontos de interesse,hypo
+facilidade,Pontos de interesse,hypo
+facilidade,Pontos de interesse,hypo
+facilidade,Facilidade,hyper
+facilidade,Facilidades da Casa de Banho,hyper
+facilidade,Instalação interna,hyper
+facilidade,Facilidades do Quarto,hyper
+facilidade,Acesso para Deficientes,hyper
+facilidade,Instalação externa,hyper
+facilidade,Motorista,hyper
+facilidade,Instalação Externa,hypo
+facilidade,Instalação Interna,hypo
+jardim,Facilidade,hypo
+jardim,Pontos de interesse,hypo
+jardim,Pontos de interesse,hypo
+jardim,Pontos de interesse,hypo
+jardim,Facilidade,hyper
+jardim,Facilidades da Casa de Banho,hyper
+jardim,Instalação interna,hyper
+jardim,Facilidades do Quarto,hyper
+jardim,Acesso para Deficientes,hyper
+jardim,Instalação externa,hyper
+jardim,Motorista,hyper
+jardim,Instalação Externa,hypo
+pequeno,Endereço,hypo
+pequeno,Endereço,hypo
+pequeno,Service,hypo
+maravilhoso,Endereço,hypo
+maravilhoso,Endereço,hypo
+maravilhoso,Categoria de hotéis,hypo
+padaria,Facilidade,hypo
+padaria,Pontos de interesse,hypo
+padaria,Pontos de interesse,hypo
+padaria,Facilidade,hyper
+padaria,Facilidades da Casa de Banho,hyper
+padaria,Instalação interna,hyper
+padaria,Facilidades do Quarto,hyper
+padaria,Acesso para Deficientes,hyper
+padaria,Instalação externa,hyper
+padaria,Motorista,hyper
+padaria,Instalação Externa,hypo
+padaria,Instalação Interna,hypo
+distância,Endereço,hypo
+distância,Endereço,hypo
+distância,Facilidade,hypo
+distância,Pontos de interesse,hypo
+distância,Pontos de interesse,hypo
+distância,Pontos de interesse,hypo
+distância,Facilidade,hyper
+distância,Facilidades da Casa de Banho,hyper
+distância,Instalação interna,hyper
+distância,Facilidades do Quarto,hyper
+distância,Acesso para Deficientes,hyper
+distância,Instalação externa,hyper
+distância,Motorista,hyper
+distância,Instalação Externa,hypo
+quarteirão,Facilidade,hypo
+quarteirão,Pontos de interesse,hypo
+quarteirão,Pontos de interesse,hypo
+quarteirão,Pontos de interesse,hypo
+quarteirão,Facilidade,hyper
+quarteirão,Facilidades da Casa de Banho,hyper
+quarteirão,Instalação interna,hyper
+quarteirão,Facilidades do Quarto,hyper
+quarteirão,Acesso para Deficientes,hyper
+quarteirão,Instalação externa,hyper
+quarteirão,Motorista,hyper
+quarteirão,Instalação Externa,hypo
+apartamento,Alojamento,hypo
+elevador,Instalação Interna,hypo
+elevador,Instalação Interna,hypo
+excelente,Endereço,hypo
+excelente,Endereço,hypo
+excelente,Service,hypo
+excelente,Categoria de hotéis,hypo
+estações_de_metro,Facilidade,hypo
+estações_de_metro,Pontos de interesse,hypo
+estações_de_metro,Pontos de interesse,hypo
+estações_de_metro,Pontos de interesse,hypo
+estações_de_metro,Facilidade,hyper
+estações_de_metro,Facilidades da Casa de Banho,hyper
+estações_de_metro,Instalação interna,hyper
+estações_de_metro,Facilidades do Quarto,hyper
+estações_de_metro,Acesso para Deficientes,hyper
+estações_de_metro,Instalação externa,hyper
+estações_de_metro,Motorista,hyper
+estações_de_metro,Instalação Externa,hypo
+canal,Service,hypo
+canal,Facilidade do banheiro,hypo
+canal,Instalação Interna,hypo
+canal,Lavanderia,hypo
+canal,Cuarto de lavado,hyper
+canal,Servicios de lavandería,hyper
+canal,Lavanderia,hyper
+duchar,Facilidade do quarto,hypo
+duchar,Facilidade do quarto,hypo
+duchar,Facilidade do banheiro,hypo
+duchar,Facilidade do banheiro,hypo
+duchar,Instalação Interna,hypo
+localização,Alojamento,hypo
+mercar,Instalação Interna,hypo
+vinho,Refeição,hypo
+vinho,Refeição,hyper
+vinho,Café da Manhã,hyper
+vinho,Almoço,hyper
+vinho,Jantar,hyper
+vinho,Instalação Interna,hypo
+vinho,Lavanderia,hypo
+vinho,Cuarto de lavado,hyper
+vinho,Servicios de lavandería,hyper
+vinho,Lavanderia,hyper
+arar,Service,hypo
+arar,Service,hypo
+arar,Instalação Interna,hypo
+arar,Lavanderia,hypo
+arar,Cuarto de lavado,hyper
+arar,Servicios de lavandería,hyper
+arar,Lavanderia,hyper
+atracão,Endereço,hypo
+atracão,Endereço,hypo
+atracão,Pontos de interesse,hypo
+atracão,Categoria de hotéis,hypo
+mesa,Facilidade do quarto,hypo
+mesa,Facilidade do banheiro,hypo
+variedade,Refeição,hypo
+malo,Instalação Interna,hypo
+malo,Instalação Interna,hypo
+família,Tipo de hóspede,hypo
+família,Família,hypo
+família,Família,hyper
+família,Família com Filhos Mais Jovens,hyper
+família,Família com Filhos Mais Velhos,hyper
+família,Família Grande,hyper
+charme,Facilidade,hypo
+charme,Pontos de interesse,hypo
+charme,Pontos de interesse,hypo
+charme,Facilidade,hyper
+charme,Facilidades da Casa de Banho,hyper
+charme,Instalação interna,hyper
+charme,Facilidades do Quarto,hyper
+charme,Acesso para Deficientes,hyper
+charme,Instalação externa,hyper
+charme,Motorista,hyper
+charme,Categoria de hotéis,hypo
+super,Categoria de hotéis,hypo
+filar,Horário,hypo
+filar,Horário do Restaurante,hyper
+filar,Horário do Spa,hyper
+filar,Horário da Piscina Externa,hyper
+filar,Horário da Piscina Coberta,hyper
+filar,Horário,hyper
+ótimas,Facilidade,hypo
+ótimas,Pontos de interesse,hypo
+ótimas,Facilidade,hyper
+ótimas,Facilidades da Casa de Banho,hyper
+ótimas,Instalação interna,hyper
+ótimas,Facilidades do Quarto,hyper
+ótimas,Acesso para Deficientes,hyper
+ótimas,Instalação externa,hyper
+ótimas,Motorista,hyper
+tranquilo,Facilidade,hypo
+tranquilo,Pontos de interesse,hypo
+tranquilo,Pontos de interesse,hypo
+tranquilo,Pontos de interesse,hypo
+tranquilo,Facilidade,hyper
+tranquilo,Facilidades da Casa de Banho,hyper
+tranquilo,Instalação interna,hyper
+tranquilo,Facilidades do Quarto,hyper
+tranquilo,Acesso para Deficientes,hyper
+tranquilo,Instalação externa,hyper
+tranquilo,Motorista,hyper
+tranquilo,Instalação Externa,hypo
+ponto,Facilidade,hypo
+ponto,Pontos de interesse,hypo
+ponto,Pontos de interesse,hypo
+ponto,Pontos de interesse,hypo
+ponto,Facilidade,hyper
+ponto,Facilidades da Casa de Banho,hyper
+ponto,Instalação interna,hyper
+ponto,Facilidades do Quarto,hyper
+ponto,Acesso para Deficientes,hyper
+ponto,Instalação externa,hyper
+ponto,Motorista,hyper
+ponto,Instalação Externa,hypo
+momento,Horário,hypo
+momento,Horário do Restaurante,hyper
+momento,Horário do Spa,hyper
+momento,Horário da Piscina Externa,hyper
+momento,Horário da Piscina Coberta,hyper
+momento,Horário,hyper
+tamanho,Facilidade do quarto,hypo
+tamanho,Facilidade do quarto,hypo
+tamanho,Facilidade do banheiro,hypo
+tamanho,Instalação Interna,hypo
+luxar,Alojamento,hypo
+luxar,Hotel,hypo
+luxar,Hotel cápsula,hyper
+luxar,Hotel casa da árvore,hyper
+luxar,Hotel de gelo,hyper
+luxar,Hotel Casamata,hyper
+luxar,Hotel,hyper
+luxar,Hotel aquático,hyper
+luxar,Hotel adega,hyper
+necessidade,Service,hypo
+e_com_certeza,Endereço,hypo
+e_com_certeza,Endereço,hypo
+e_com_certeza,Categoria de hotéis,hypo
+metro,Instalação Externa,hypo
+variar,Refeição,hypo
+variar,Refeição,hyper
+variar,Café da Manhã,hyper
+variar,Almoço,hyper
+variar,Jantar,hyper
+disposição,Service,hypo
+quartilhar,Facilidade,hypo
+quartilhar,Pontos de interesse,hypo
+quartilhar,Pontos de interesse,hypo
+quartilhar,Facilidade,hyper
+quartilhar,Facilidades da Casa de Banho,hyper
+quartilhar,Instalação interna,hyper
+quartilhar,Facilidades do Quarto,hyper
+quartilhar,Acesso para Deficientes,hyper
+quartilhar,Instalação externa,hyper
+quartilhar,Motorista,hyper
+quartilhar,Categoria de hotéis,hypo
+qualidade,Categoria de hotéis,hypo
+expectativa,Alojamento,hypo
+expectativa,Alojamento,hypo
+expectativa,Hotel,hypo
+expectativa,Hotel cápsula,hyper
+expectativa,Hotel casa da árvore,hyper
+expectativa,Hotel de gelo,hyper
+expectativa,Hotel Casamata,hyper
+expectativa,Hotel,hyper
+expectativa,Hotel aquático,hyper
+expectativa,Hotel adega,hyper
+estação,Instalação Externa,hypo
+rir,Pontos de interesse,hypo
+rir,Categoria de hotéis,hypo
+amigo,Categoria de hotéis,hypo
+instalação,Alojamento,hypo
+e_a_localização,Endereço,hypo
+e_a_localização,Endereço,hypo
+e_a_localização,Service,hypo
+e_a_localização,Categoria de hotéis,hypo
+duvidar,Categoria de hotéis,hypo
+shopping,Endereço,hypo
+shopping,Endereço,hypo
+shopping,Refeição,hypo
+novembro,Endereço,hypo
+novembro,Endereço,hypo
+sinal,Horário,hypo
+sinal,Horário do Restaurante,hyper
+sinal,Horário do Spa,hyper
+sinal,Horário da Piscina Externa,hyper
+sinal,Horário da Piscina Coberta,hyper
+sinal,Horário,hyper
+relação,Preço,hypo
+relação,Preço,hyper
+relação,Preço do Quarto,hyper
+relação,Preço do Estacionamento,hyper
+relação,Preço do Café,hyper
+relação,Preço da Internet,hyper
+relação,Preço do Berço,hyper
+relação,Preço do Restaurante,hyper
+relação,Preço do Bar,hyper
+relação,Preço do Café da Manhã,hyper
+portar,Instalação Interna,hypo
+final,Endereço,hypo
+final,Endereço,hypo
+final,Service,hypo
+final,Service,hypo
+velocidade,Service,hypo
+domingo,Endereço,hypo
+domingo,Endereço,hypo
+domingo,Service,hypo
+domingo,Categoria de hotéis,hypo
+tripartidismo,Endereço,hypo
+tripartidismo,Endereço,hypo
+tripartidismo,Categoria de hotéis,hypo
+refeição,Refeição,hypo
+refeição,Refeição,hyper
+refeição,Café da Manhã,hyper
+refeição,Almoço,hyper
+refeição,Jantar,hyper
+quarto_é_pequeno,Service,hypo
+quarto_é_pequeno,Instalação Interna,hypo
+quarto_é_pequeno,Lavanderia,hypo
+quarto_é_pequeno,Cuarto de lavado,hyper
+quarto_é_pequeno,Servicios de lavandería,hyper
+quarto_é_pequeno,Lavanderia,hyper
+café,Refeição,hypo
+mercadinho,Instalação Interna,hypo
+mercadinho,Lavanderia,hypo
+mercadinho,Cuarto de lavado,hyper
+mercadinho,Servicios de lavandería,hyper
+mercadinho,Lavanderia,hyper
+net,Endereço,hypo
+net,Endereço,hypo
+net,Service,hypo
+net,Categoria de hotéis,hypo
+dinheiro,Horário,hypo
+dinheiro,Horário do Restaurante,hyper
+dinheiro,Horário do Spa,hyper
+dinheiro,Horário da Piscina Externa,hyper
+dinheiro,Horário da Piscina Coberta,hyper
+dinheiro,Horário,hyper
+graça,Service,hypo
+linha,Instalação Externa,hypo
+a_0_quadras,Pontos de interesse,hypo
+a_0_quadras,Categoria de hotéis,hypo
+boutique,Service,hypo
+boutique,Categoria de hotéis,hypo
+nível,Categoria de hotéis,hypo
+pão,Refeição,hypo
+água,Facilidade do quarto,hypo
+táxi,Pontos de interesse,hypo
+museu,Endereço,hypo
+museu,Endereço,hypo
+museu,Facilidade,hypo
+museu,Pontos de interesse,hypo
+museu,Pontos de interesse,hypo
+museu,Pontos de interesse,hypo
+museu,Facilidade,hyper
+museu,Facilidades da Casa de Banho,hyper
+museu,Instalação interna,hyper
+museu,Facilidades do Quarto,hyper
+museu,Acesso para Deficientes,hyper
+museu,Instalação externa,hyper
+museu,Motorista,hyper
+museu,Instalação Externa,hypo
+centrar,Facilidade,hypo
+centrar,Pontos de interesse,hypo
+centrar,Pontos de interesse,hypo
+centrar,Pontos de interesse,hypo
+centrar,Facilidade,hyper
+centrar,Facilidades da Casa de Banho,hyper
+centrar,Instalação interna,hyper
+centrar,Facilidades do Quarto,hyper
+centrar,Acesso para Deficientes,hyper
+centrar,Instalação externa,hyper
+centrar,Motorista,hyper
+centrar,Instalação Externa,hypo
+box,Facilidade do quarto,hypo
+box,Facilidade do quarto,hypo
+box,Facilidade do banheiro,hypo
+box,Facilidade do banheiro,hypo
+box,Facilidade do banheiro,hypo
+box,Instalação Interna,hypo
+chão,Facilidade do quarto,hypo
+chão,Facilidade do banheiro,hypo
+chão,Instalação Interna,hypo
+bonito,Service,hypo
+cama,Facilidade do quarto,hypo
+cama,Facilidade do banheiro,hypo
+cama,Facilidade do banheiro,hypo
+cama,Instalação Interna,hypo
+lençol,Tipo de hóspede,hypo
+lençol,Facilidade do quarto,hypo
+lençol,Facilidade do quarto,hypo
+lençol,Facilidade do banheiro,hypo
+lençol,Facilidade do banheiro,hypo
+lençol,Facilidade do banheiro,hypo
+lençol,Casal,hypo
+lençol,Casal Jovem,hyper
+lençol,Casal,hyper
+lençol,Casal Maduro,hyper
+quarto_e_banheiro,Service,hypo
+quarto_e_banheiro,Service,hypo
+quarto_e_banheiro,Instalação Interna,hypo
+quarto_e_banheiro,Lavanderia,hypo
+quarto_e_banheiro,Cuarto de lavado,hyper
+quarto_e_banheiro,Servicios de lavandería,hyper
+quarto_e_banheiro,Lavanderia,hyper
+café_da_manha,Categoria de hotéis,hypo
+toalha,Facilidade do quarto,hypo
+toalha,Facilidade do quarto,hypo
+toalha,Facilidade do banheiro,hypo
+toalha,Facilidade do banheiro,hypo
+peno,Preço,hypo
+peno,Preço,hyper
+peno,Preço do Quarto,hyper
+peno,Preço do Estacionamento,hyper
+peno,Preço do Café,hyper
+peno,Preço da Internet,hyper
+peno,Preço do Berço,hyper
+peno,Preço do Restaurante,hyper
+peno,Preço do Bar,hyper
+peno,Preço do Café da Manhã,hyper
+geleia,Refeição,hypo
+classificar,Endereço,hypo
+classificar,Endereço,hypo
+classificar,Service,hypo
+classificar,Categoria de hotéis,hypo
+apoiar,Service,hypo
+apoiar,Facilidade do quarto,hypo
+apoiar,Facilidade do banheiro,hypo
+dia,Horário,hypo
+dia,Horário do Restaurante,hyper
+dia,Horário do Spa,hyper
+dia,Horário da Piscina Externa,hyper
+dia,Horário da Piscina Coberta,hyper
+dia,Horário,hyper
+padrão,Categoria de hotéis,hypo
+gentil,Alojamento,hypo
+dúvida,Alojamento,hypo
+dúvida,Hotel,hypo
+dúvida,Hotel cápsula,hyper
+dúvida,Hotel casa da árvore,hyper
+dúvida,Hotel de gelo,hyper
+dúvida,Hotel Casamata,hyper
+dúvida,Hotel,hyper
+dúvida,Hotel aquático,hyper
+dúvida,Hotel adega,hyper
+noto,Alojamento,hypo
+locar,Endereço,hypo
+locar,Endereço,hypo
+locar,Pontos de interesse,hypo
+locar,Pontos de interesse,hypo
+locar,Categoria de hotéis,hypo
+passagem,Endereço,hypo
+passagem,Endereço,hypo
+sala,Facilidade do quarto,hypo
+sala,Facilidade do banheiro,hypo
+sala,Facilidade do banheiro,hypo
+sala,Instalação Interna,hypo
+hóspede,Horário,hypo
+hóspede,Horário do Restaurante,hyper
+hóspede,Horário do Spa,hyper
+hóspede,Horário da Piscina Externa,hyper
+hóspede,Horário da Piscina Coberta,hyper
+hóspede,Horário,hyper
+horar,Horário,hypo
+horar,Horário do Restaurante,hyper
+horar,Horário do Spa,hyper
+horar,Horário da Piscina Externa,hyper
+horar,Horário da Piscina Coberta,hyper
+horar,Horário,hyper
+mapa,Endereço,hypo
+mapa,Endereço,hypo
+mapa,Categoria de hotéis,hypo
+pro,Endereço,hypo
+pro,Endereço,hypo
+pro,Refeição,hypo
+eleenses,Facilidade,hypo
+eleenses,Pontos de interesse,hypo
+eleenses,Pontos de interesse,hypo
+eleenses,Facilidade,hyper
+eleenses,Facilidades da Casa de Banho,hyper
+eleenses,Instalação interna,hyper
+eleenses,Facilidades do Quarto,hyper
+eleenses,Acesso para Deficientes,hyper
+eleenses,Instalação externa,hyper
+eleenses,Motorista,hyper
+eleenses,Categoria de hotéis,hypo
+dependência,Service,hypo
+dependência,Service,hypo
+higiene,Service,hypo
+higiene,Service,hypo
+higiene,Instalação Interna,hypo
+higiene,Lavanderia,hypo
+higiene,Cuarto de lavado,hyper
+higiene,Servicios de lavandería,hyper
+higiene,Lavanderia,hyper
+loja,Pontos de interesse,hypo
+loja,Pontos de interesse,hypo
+loja,Instalação Interna,hypo
+perto,Facilidade,hypo
+perto,Pontos de interesse,hypo
+perto,Pontos de interesse,hypo
+perto,Facilidade,hyper
+perto,Facilidades da Casa de Banho,hyper
+perto,Instalação interna,hyper
+perto,Facilidades do Quarto,hyper
+perto,Acesso para Deficientes,hyper
+perto,Instalação externa,hyper
+perto,Motorista,hyper
+perto,Instalação Externa,hypo
+perto,Instalação Interna,hypo
+produto,Facilidade do quarto,hypo
+separar,Facilidade do quarto,hypo
+separar,Facilidade do quarto,hypo
+separar,Facilidade do quarto,hypo
+separar,Facilidade do banheiro,hypo
+separar,Facilidade do banheiro,hypo
+separar,Facilidade do banheiro,hypo
+separar,Instalação Interna,hypo
+extra,Facilidade do banheiro,hypo
+prato,Service,hypo
+ruim,Endereço,hypo
+ruim,Endereço,hypo
+ruim,Service,hypo
+vantagem,Instalação Interna,hypo
+vantagem,Lavanderia,hypo
+vantagem,Cuarto de lavado,hyper
+vantagem,Servicios de lavandería,hyper
+vantagem,Lavanderia,hyper
+moderno,Service,hypo
+moderno,Service,hypo
+horário,Horário,hypo
+horário,Horário do Restaurante,hyper
+horário,Horário do Spa,hyper
+horário,Horário da Piscina Externa,hyper
+horário,Horário da Piscina Coberta,hyper
+horário,Horário,hyper
+papel,Horário,hypo
+papel,Horário do Restaurante,hyper
+papel,Horário do Spa,hyper
+papel,Horário da Piscina Externa,hyper
+papel,Horário da Piscina Coberta,hyper
+papel,Horário,hyper
+atrações,Endereço,hypo
+atrações,Endereço,hypo
+atrações,Facilidade,hypo
+atrações,Pontos de interesse,hypo
+atrações,Pontos de interesse,hypo
+atrações,Facilidade,hyper
+atrações,Facilidades da Casa de Banho,hyper
+atrações,Instalação interna,hyper
+atrações,Facilidades do Quarto,hyper
+atrações,Acesso para Deficientes,hyper
+atrações,Instalação externa,hyper
+atrações,Motorista,hyper
+agitação,Endereço,hypo
+agitação,Endereço,hypo
+agitação,Pontos de interesse,hypo
+agitação,Service,hypo
+agitação,Instalação Interna,hypo
+agitação,Lavanderia,hypo
+agitação,Cuarto de lavado,hyper
+agitação,Servicios de lavandería,hyper
+agitação,Lavanderia,hyper
+tratamento,Service,hypo
+mundo,Endereço,hypo
+mundo,Endereço,hypo
+mundo,Categoria de hotéis,hypo
+cassino,Instalação Externa,hypo
+cassino,Instalação Interna,hypo
+cassino,Instalação Interna,hypo
+reclamação,Horário,hypo
+reclamação,Horário do Restaurante,hyper
+reclamação,Horário do Spa,hyper
+reclamação,Horário da Piscina Externa,hyper
+reclamação,Horário da Piscina Coberta,hyper
+reclamação,Horário,hyper
+agitar,Endereço,hypo
+agitar,Endereço,hypo
+agitar,Pontos de interesse,hypo
+agitar,Pontos de interesse,hypo
+agitar,Pontos de interesse,hypo
+agitar,Categoria de hotéis,hypo
+lanche,Service,hypo
+lanche,Instalação Interna,hypo
+lanche,Lavanderia,hypo
+lanche,Cuarto de lavado,hyper
+lanche,Servicios de lavandería,hyper
+lanche,Lavanderia,hyper
+trem,Pontos de interesse,hypo
+tranquilidade,Endereço,hypo
+tranquilidade,Endereço,hypo
+tranquilidade,Service,hypo
+tranquilidade,Categoria de hotéis,hypo
+louça,Facilidade do quarto,hypo
+louça,Facilidade do banheiro,hypo
+louça,Facilidade do banheiro,hypo
+estacionamento,Instalação Externa,hypo
+estacionamento,Instalação Interna,hypo
+estacionamento,Instalação Interna,hypo
+chequezinho,Horário,hypo
+chequezinho,Horário do Restaurante,hyper
+chequezinho,Horário do Spa,hyper
+chequezinho,Horário da Piscina Externa,hyper
+chequezinho,Horário da Piscina Coberta,hyper
+chequezinho,Horário,hyper
+senha,Horário,hypo
+senha,Horário do Restaurante,hyper
+senha,Horário do Spa,hyper
+senha,Horário da Piscina Externa,hyper
+senha,Horário da Piscina Coberta,hyper
+senha,Horário,hyper
+cortesia,Service,hypo
+queneu,Tipo de hóspede,hypo
+queneu,Facilidade do quarto,hypo
+queneu,Facilidade do quarto,hypo
+queneu,Facilidade do banheiro,hypo
+queneu,Facilidade do banheiro,hypo
+queneu,Quarto de hotel,hypo
+queneu,Casal,hypo
+queneu,Casal Jovem,hyper
+queneu,Casal,hyper
+queneu,Casal Maduro,hyper
+TV,Facilidade do quarto,hypo
+TV,Facilidade do banheiro,hypo
+TV,Facilidade do banheiro,hypo
+TV,Facilidade do banheiro,hypo
+pio,Facilidade do quarto,hypo
+pio,Facilidade do quarto,hypo
+pio,Facilidade do quarto,hypo
+pio,Facilidade do banheiro,hypo
+pio,Facilidade do banheiro,hypo
+pio,Facilidade do banheiro,hypo
+pio,Facilidade do banheiro,hypo
+pio,Instalação Interna,hypo
+travesseiro,Tipo de hóspede,hypo
+travesseiro,Facilidade do quarto,hypo
+travesseiro,Facilidade do quarto,hypo
+travesseiro,Facilidade do banheiro,hypo
+travesseiro,Facilidade do banheiro,hypo
+travesseiro,Facilidade do banheiro,hypo
+travesseiro,Quarto de hotel,hypo
+travesseiro,Casal,hypo
+travesseiro,Casal Jovem,hyper
+travesseiro,Casal,hyper
+travesseiro,Casal Maduro,hyper
+estruturar,Service,hypo
+roubar,Horário,hypo
+roubar,Horário do Restaurante,hyper
+roubar,Horário do Spa,hyper
+roubar,Horário da Piscina Externa,hyper
+roubar,Horário da Piscina Coberta,hyper
+roubar,Horário,hyper
+pertencer,Horário,hypo
+pertencer,Horário do Restaurante,hyper
+pertencer,Horário do Spa,hyper
+pertencer,Horário da Piscina Externa,hyper
+pertencer,Horário da Piscina Coberta,hyper
+pertencer,Horário,hyper
+país,Endereço,hypo
+país,Endereço,hypo
+país,Categoria de hotéis,hypo
+kung,Facilidade do quarto,hypo
+kung,Facilidade do banheiro,hypo
+kung,Facilidade do banheiro,hypo
+kung,Quarto de hotel,hypo
+de_bom_gosto,Service,hypo
+de_bom_gosto,Service,hypo
+de_bom_gosto,Instalação Interna,hypo
+de_bom_gosto,Lavanderia,hypo
+de_bom_gosto,Cuarto de lavado,hyper
+de_bom_gosto,Servicios de lavandería,hyper
+de_bom_gosto,Lavanderia,hyper
+item,Service,hypo
+controlo,Facilidade do quarto,hypo
+controlo,Facilidade do quarto,hypo
+controlo,Facilidade do banheiro,hypo
+controlo,Facilidade do banheiro,hypo
+desá,Endereço,hypo
+desá,Endereço,hypo
+desá,Service,hypo
+desá,Service,hypo
+pacote,Horário,hypo
+pacote,Horário do Restaurante,hyper
+pacote,Horário do Spa,hyper
+pacote,Horário da Piscina Externa,hyper
+pacote,Horário da Piscina Coberta,hyper
+pacote,Horário,hyper
+seguro,Endereço,hypo
+seguro,Endereço,hypo
+seguro,Pontos de interesse,hypo
+seguro,Categoria de hotéis,hypo
+sistema,Horário,hypo
+sistema,Horário do Restaurante,hyper
+sistema,Horário do Spa,hyper
+sistema,Horário da Piscina Externa,hyper
+sistema,Horário da Piscina Coberta,hyper
+sistema,Horário,hyper
+ofertar,Endereço,hypo
+ofertar,Endereço,hypo
+ofertar,Service,hypo
+ofertar,Categoria de hotéis,hypo
+diversão,Endereço,hypo
+diversão,Endereço,hypo
+circular,Endereço,hypo
+circular,Endereço,hypo
+casino,Endereço,hypo
+casino,Endereço,hypo
+show,Pontos de interesse,hypo
+vidrar,Tipo de hóspede,hypo
+vidrar,Facilidade do quarto,hypo
+vidrar,Facilidade do quarto,hypo
+vidrar,Facilidade do banheiro,hypo
+vidrar,Instalação Interna,hypo
+vidrar,Casal,hypo
+vidrar,Casal Jovem,hyper
+vidrar,Casal,hyper
+vidrar,Casal Maduro,hyper
+apresentação,Endereço,hypo
+apresentação,Endereço,hypo
+apresentação,Service,hypo
+onico,Endereço,hypo
+onico,Endereço,hypo
+onico,Service,hypo
+cartão,Horário,hypo
+cartão,Horário do Restaurante,hyper
+cartão,Horário do Spa,hyper
+cartão,Horário da Piscina Externa,hyper
+cartão,Horário da Piscina Coberta,hyper
+cartão,Horário,hyper
+hall,Pontos de interesse,hypo
+hall,Instalação Interna,hypo
+hall,Lavanderia,hypo
+hall,Cuarto de lavado,hyper
+hall,Servicios de lavandería,hyper
+hall,Lavanderia,hyper
+cigarrar,Tipo de hóspede,hypo
+cigarrar,Facilidade do banheiro,hypo
+cigarrar,Instalação Interna,hypo
+cigarrar,Casal,hypo
+cigarrar,Casal Jovem,hyper
+cigarrar,Casal,hyper
+cigarrar,Casal Maduro,hyper
+aconselhar,Endereço,hypo
+aconselhar,Endereço,hypo
+aconselhar,Categoria de hotéis,hypo
+espetáculo,Endereço,hypo
+espetáculo,Endereço,hypo
+espetáculo,Categoria de hotéis,hypo
+corredor,Facilidade do quarto,hypo
+corredor,Instalação Interna,hypo
+acomodação,Alojamento,hypo
+acomodação,Alojamento,hypo
+acomodação,Hotel,hypo
+acomodação,Hotel cápsula,hyper
+acomodação,Hotel casa da árvore,hyper
+acomodação,Hotel de gelo,hyper
+acomodação,Hotel Casamata,hyper
+acomodação,Hotel,hyper
+acomodação,Hotel aquático,hyper
+acomodação,Hotel adega,hyper
+confortável,Service,hypo
+confortável,Instalação Interna,hypo
+confortável,Lavanderia,hypo
+confortável,Cuarto de lavado,hyper
+confortável,Servicios de lavandería,hyper
+confortável,Lavanderia,hyper
+m,Endereço,hypo
+m,Endereço,hypo
+m,Pontos de interesse,hypo
+m,Instalação Interna,hypo
+m,Lavanderia,hypo
+m,Cuarto de lavado,hyper
+m,Servicios de lavandería,hyper
+m,Lavanderia,hyper
+proxema,Endereço,hypo
+proxema,Endereço,hypo
+proxema,Pontos de interesse,hypo
+proxema,Categoria de hotéis,hypo
+salão,Service,hypo
+salão,Service,hypo
+salão,Instalação Interna,hypo
+salão,Lavanderia,hypo
+salão,Cuarto de lavado,hyper
+salão,Servicios de lavandería,hyper
+salão,Lavanderia,hyper
+beleza,Endereço,hypo
+beleza,Endereço,hypo
+beleza,Service,hypo
+beleza,Categoria de hotéis,hypo
+atração,Endereço,hypo
+atração,Endereço,hypo
+atração,Pontos de interesse,hypo
+atração,Categoria de hotéis,hypo
+televisão,Facilidade do quarto,hypo
+televisão,Facilidade do banheiro,hypo
+televisão,Facilidade do banheiro,hypo
+televisão,Quarto de hotel,hypo
+preferir,Endereço,hypo
+preferir,Endereço,hypo
+preferir,Pontos de interesse,hypo
+preferir,Pontos de interesse,hypo
+preferir,Pontos de interesse,hypo
+novo,Instalação Interna,hypo
+novo,Lavanderia,hypo
+novo,Cuarto de lavado,hyper
+novo,Servicios de lavandería,hyper
+novo,Lavanderia,hyper
+cobrança,Horário,hypo
+cobrança,Horário do Restaurante,hyper
+cobrança,Horário do Spa,hyper
+cobrança,Horário da Piscina Externa,hyper
+cobrança,Horário da Piscina Coberta,hyper
+cobrança,Horário,hyper
+classificação,Endereço,hypo
+classificação,Endereço,hypo
+classificação,Service,hypo
+classificação,Service,hypo
+u$,Horário,hypo
+u$,Horário do Restaurante,hyper
+u$,Horário do Spa,hyper
+u$,Horário da Piscina Externa,hyper
+u$,Horário da Piscina Coberta,hyper
+u$,Horário,hyper
+telefonar,Horário,hypo
+telefonar,Horário do Restaurante,hyper
+telefonar,Horário do Spa,hyper
+telefonar,Horário da Piscina Externa,hyper
+telefonar,Horário da Piscina Coberta,hyper
+telefonar,Horário,hyper
+ar,Facilidade do quarto,hypo
+ar,Facilidade do banheiro,hypo
+central,Endereço,hypo
+central,Endereço,hypo
+central,Facilidade,hypo
+central,Pontos de interesse,hypo
+central,Pontos de interesse,hypo
+central,Pontos de interesse,hypo
+central,Facilidade,hyper
+central,Facilidades da Casa de Banho,hyper
+central,Instalação interna,hyper
+central,Facilidades do Quarto,hyper
+central,Acesso para Deficientes,hyper
+central,Instalação externa,hyper
+central,Motorista,hyper
+central,Instalação Externa,hypo
+maio,Endereço,hypo
+maio,Endereço,hypo
+situação,Horário,hypo
+situação,Horário do Restaurante,hyper
+situação,Horário do Spa,hyper
+situação,Horário da Piscina Externa,hyper
+situação,Horário da Piscina Coberta,hyper
+situação,Horário,hyper
+negócio,Endereço,hypo
+negócio,Endereço,hypo
+negócio,Categoria de hotéis,hypo
+safar,Endereço,hypo
+safar,Endereço,hypo
+safar,Pontos de interesse,hypo
+safar,Instalação Interna,hypo
+safar,Lavanderia,hypo
+safar,Cuarto de lavado,hyper
+safar,Servicios de lavandería,hyper
+safar,Lavanderia,hyper
+par,Endereço,hypo
+par,Endereço,hypo
+par,Pontos de interesse,hypo
+par,Pontos de interesse,hypo
+par,Categoria de hotéis,hypo
+calor,Instalação Interna,hypo
+doce,Service,hypo
+doce,Instalação Interna,hypo
+doce,Lavanderia,hypo
+doce,Cuarto de lavado,hyper
+doce,Servicios de lavandería,hyper
+doce,Lavanderia,hyper
+cadeira,Facilidade do quarto,hypo
+cadeira,Facilidade do quarto,hypo
+cadeira,Facilidade do banheiro,hypo
+cadeira,Facilidade do banheiro,hypo
+deslocamento,Endereço,hypo
+deslocamento,Endereço,hypo
+deslocamento,Facilidade,hypo
+deslocamento,Pontos de interesse,hypo
+deslocamento,Pontos de interesse,hypo
+deslocamento,Pontos de interesse,hypo
+deslocamento,Facilidade,hyper
+deslocamento,Facilidades da Casa de Banho,hyper
+deslocamento,Instalação interna,hyper
+deslocamento,Facilidades do Quarto,hyper
+deslocamento,Acesso para Deficientes,hyper
+deslocamento,Instalação externa,hyper
+deslocamento,Motorista,hyper
+deslocamento,Categoria de hotéis,hypo
+local,Pontos de interesse,hypo
+maquinar,Service,hypo
+cardápio,Service,hypo
+cardápio,Service,hypo
+cardápio,Instalação Interna,hypo
+cardápio,Lavanderia,hypo
+cardápio,Cuarto de lavado,hyper
+cardápio,Servicios de lavandería,hyper
+cardápio,Lavanderia,hyper
+privacidade,Tipo de hóspede,hypo
+privacidade,Facilidade do quarto,hypo
+privacidade,Facilidade do quarto,hypo
+privacidade,Facilidade do banheiro,hypo
+privacidade,Facilidade do banheiro,hypo
+privacidade,Casal,hypo
+privacidade,Casal Jovem,hyper
+privacidade,Casal,hyper
+privacidade,Casal Maduro,hyper
+setembro,Endereço,hypo
+setembro,Endereço,hypo
+setembro,Service,hypo
+setembro,Categoria de hotéis,hypo
+distanciar,Endereço,hypo
+distanciar,Endereço,hypo
+distanciar,Pontos de interesse,hypo
+distanciar,Categoria de hotéis,hypo
+exemplo,Service,hypo
+isolamento,Tipo de hóspede,hypo
+isolamento,Facilidade do banheiro,hypo
+isolamento,Casal,hypo
+isolamento,Casal Jovem,hyper
+isolamento,Casal,hyper
+isolamento,Casal Maduro,hyper
+fato,Horário,hypo
+fato,Horário do Restaurante,hyper
+fato,Horário do Spa,hyper
+fato,Horário da Piscina Externa,hyper
+fato,Horário da Piscina Coberta,hyper
+fato,Horário,hyper
+razão,Horário,hypo
+razão,Horário do Restaurante,hyper
+razão,Horário do Spa,hyper
+razão,Horário da Piscina Externa,hyper
+razão,Horário da Piscina Coberta,hyper
+razão,Horário,hyper
+sugestão,Service,hypo
+sugestão,Service,hypo
+feio,Endereço,hypo
+feio,Endereço,hypo
+feio,Service,hypo
+DI,Endereço,hypo
+DI,Endereço,hypo
+DI,Categoria de hotéis,hypo
+período,Service,hypo
+casal,Tipo de hóspede,hypo
+casal,Facilidade do quarto,hypo
+casal,Facilidade do quarto,hypo
+casal,Facilidade do banheiro,hypo
+casal,Quarto de hotel,hypo
+casal,Casal,hypo
+casal,Casal Jovem,hyper
+casal,Casal,hyper
+casal,Casal Maduro,hyper
+festa,Endereço,hypo
+festa,Endereço,hypo
+comodidade,Service,hypo
+comodidade,Service,hypo
+comodidade,Instalação Interna,hypo
+comodidade,Lavanderia,hypo
+comodidade,Cuarto de lavado,hyper
+comodidade,Servicios de lavandería,hyper
+comodidade,Lavanderia,hyper
+fugir,Endereço,hypo
+fugir,Endereço,hypo
+fugir,Service,hypo
+fugir,Service,hypo
+fugir,Instalação Interna,hypo
+fugir,Lavanderia,hypo
+fugir,Cuarto de lavado,hyper
+fugir,Servicios de lavandería,hyper
+fugir,Lavanderia,hyper
+oportunidade,Categoria de hotéis,hypo
+tipo,Refeição,hypo
+tipo,Refeição,hyper
+tipo,Café da Manhã,hyper
+tipo,Almoço,hyper
+tipo,Jantar,hyper
+c,Service,hypo
+c,Service,hypo
+direito,Instalação Interna,hypo
+comparação,Endereço,hypo
+comparação,Endereço,hypo
+comparação,Service,hypo
+retirar,Horário,hypo
+retirar,Horário do Restaurante,hyper
+retirar,Horário do Spa,hyper
+retirar,Horário da Piscina Externa,hyper
+retirar,Horário da Piscina Coberta,hyper
+retirar,Horário,hyper
+conservação,Service,hypo
+banheira,Facilidade do quarto,hypo
+banheira,Facilidade do quarto,hypo
+banheira,Facilidade do quarto,hypo
+banheira,Facilidade do banheiro,hypo
+banheira,Facilidade do banheiro,hypo
+banheira,Facilidade do banheiro,hypo
+banheira,Facilidade do banheiro,hypo
+banheira,Instalação Interna,hypo
+geladeira,Facilidade do quarto,hypo
+fogão,Facilidade do banheiro,hypo
+dólar,Horário,hypo
+dólar,Horário do Restaurante,hyper
+dólar,Horário do Spa,hyper
+dólar,Horário da Piscina Externa,hyper
+dólar,Horário da Piscina Coberta,hyper
+dólar,Horário,hyper
+outubro,Endereço,hypo
+outubro,Endereço,hypo
+outubro,Service,hypo
+outubro,Service,hypo
+transportar,Endereço,hypo
+transportar,Endereço,hypo
+transportar,Facilidade,hypo
+transportar,Pontos de interesse,hypo
+transportar,Pontos de interesse,hypo
+transportar,Pontos de interesse,hypo
+transportar,Facilidade,hyper
+transportar,Facilidades da Casa de Banho,hyper
+transportar,Instalação interna,hyper
+transportar,Facilidades do Quarto,hyper
+transportar,Acesso para Deficientes,hyper
+transportar,Instalação externa,hyper
+transportar,Motorista,hyper
+só,Endereço,hypo
+só,Endereço,hypo
+mg,Endereço,hypo
+mg,Endereço,hypo
+saguão,Service,hypo
+minuto,Endereço,hypo
+minuto,Endereço,hypo
+minuto,Pontos de interesse,hypo
+parabém,Endereço,hypo
+parabém,Endereço,hypo
+parabém,Service,hypo
+colchão,Tipo de hóspede,hypo
+colchão,Facilidade do quarto,hypo
+colchão,Facilidade do quarto,hypo
+colchão,Facilidade do banheiro,hypo
+colchão,Facilidade do banheiro,hypo
+colchão,Facilidade do banheiro,hypo
+colchão,Instalação Interna,hypo
+colchão,Casal,hypo
+colchão,Casal Jovem,hyper
+colchão,Casal,hyper
+colchão,Casal Maduro,hyper
+infraestrutura,Endereço,hypo
+infraestrutura,Endereço,hypo
+infraestrutura,Service,hypo
+infraestrutura,Instalação Interna,hypo
+infraestrutura,Lavanderia,hypo
+infraestrutura,Categoria de hotéis,hypo
+infraestrutura,Cuarto de lavado,hyper
+infraestrutura,Servicios de lavandería,hyper
+infraestrutura,Lavanderia,hyper
+sofá,Tipo de hóspede,hypo
+sofá,Facilidade do quarto,hypo
+sofá,Facilidade do quarto,hypo
+sofá,Facilidade do banheiro,hypo
+sofá,Facilidade do banheiro,hypo
+sofá,Quarto de hotel,hypo
+sofá,Casal,hypo
+sofá,Casal Jovem,hyper
+sofá,Casal,hyper
+sofá,Casal Maduro,hyper
+os_funcionários_são,Facilidade,hypo
+os_funcionários_são,Facilidade,hyper
+os_funcionários_são,Facilidades da Casa de Banho,hyper
+os_funcionários_são,Instalação interna,hyper
+os_funcionários_são,Facilidades do Quarto,hyper
+os_funcionários_são,Acesso para Deficientes,hyper
+os_funcionários_são,Instalação externa,hyper
+os_funcionários_são,Motorista,hyper
+medo,Endereço,hypo
+medo,Endereço,hypo
+voar,Horário,hypo
+voar,Horário do Restaurante,hyper
+voar,Horário do Spa,hyper
+voar,Horário da Piscina Externa,hyper
+voar,Horário da Piscina Coberta,hyper
+voar,Horário,hyper
+mail,Horário,hypo
+mail,Horário do Restaurante,hyper
+mail,Horário do Spa,hyper
+mail,Horário da Piscina Externa,hyper
+mail,Horário da Piscina Coberta,hyper
+mail,Horário,hyper
+térreo,Service,hypo
+térreo,Instalação Interna,hypo
+térreo,Lavanderia,hypo
+térreo,Cuarto de lavado,hyper
+térreo,Servicios de lavandería,hyper
+térreo,Lavanderia,hyper
+pisar,Tipo de hóspede,hypo
+pisar,Facilidade do quarto,hypo
+pisar,Facilidade do quarto,hypo
+pisar,Facilidade do banheiro,hypo
+pisar,Facilidade do banheiro,hypo
+pisar,Facilidade do banheiro,hypo
+pisar,Casal,hypo
+pisar,Casal Jovem,hyper
+pisar,Casal,hyper
+pisar,Casal Maduro,hyper
+chave,Horário,hypo
+chave,Horário do Restaurante,hyper
+chave,Horário do Spa,hyper
+chave,Horário da Piscina Externa,hyper
+chave,Horário da Piscina Coberta,hyper
+chave,Horário,hyper
+satisfatório,Service,hypo
+satisfatório,Service,hypo
+satisfatório,Instalação Interna,hypo
+satisfatório,Lavanderia,hypo
+satisfatório,Cuarto de lavado,hyper
+satisfatório,Servicios de lavandería,hyper
+satisfatório,Lavanderia,hyper
+de_um_dia,Endereço,hypo
+de_um_dia,Endereço,hypo
+de_um_dia,Pontos de interesse,hypo
+de_um_dia,Service,hypo
+de_um_dia,Categoria de hotéis,hypo
+locomoção,Facilidade,hypo
+locomoção,Pontos de interesse,hypo
+locomoção,Pontos de interesse,hypo
+locomoção,Pontos de interesse,hypo
+locomoção,Facilidade,hyper
+locomoção,Facilidades da Casa de Banho,hyper
+locomoção,Instalação interna,hyper
+locomoção,Facilidades do Quarto,hyper
+locomoção,Acesso para Deficientes,hyper
+locomoção,Instalação externa,hyper
+locomoção,Motorista,hyper
+locomoção,Categoria de hotéis,hypo
+pressão,Tipo de hóspede,hypo
+pressão,Facilidade do quarto,hypo
+pressão,Facilidade do quarto,hypo
+pressão,Facilidade do banheiro,hypo
+pressão,Casal,hypo
+pressão,Casal Jovem,hyper
+pressão,Casal,hyper
+pressão,Casal Maduro,hyper
+lanchar,Instalação Interna,hypo
+lanchar,Lavanderia,hypo
+lanchar,Cuarto de lavado,hyper
+lanchar,Servicios de lavandería,hyper
+lanchar,Lavanderia,hyper
+lado,Pontos de interesse,hypo
+lado,Instalação Externa,hypo
+croissant,Refeição,hypo
+atrapalhar,Facilidade do banheiro,hypo
+clima,Endereço,hypo
+clima,Endereço,hypo
+clima,Service,hypo
+lavanderia,Service,hypo
+lavanderia,Instalação Interna,hypo
+lavanderia,Lavanderia,hypo
+lavanderia,Cuarto de lavado,hyper
+lavanderia,Servicios de lavandería,hyper
+lavanderia,Lavanderia,hyper
+barato,Endereço,hypo
+barato,Endereço,hypo
+barato,Service,hypo
+barato,Service,hypo
+barato,Instalação Interna,hypo
+barato,Lavanderia,hypo
+barato,Cuarto de lavado,hyper
+barato,Servicios de lavandería,hyper
+barato,Lavanderia,hyper
+altura,Endereço,hypo
+altura,Endereço,hypo
+altura,Service,hypo
+altura,Service,hypo
+pouco,Endereço,hypo
+pouco,Endereço,hypo
+pouco,Service,hypo
+alimentação,Instalação Interna,hypo
+alimentação,Lavanderia,hypo
+alimentação,Cuarto de lavado,hyper
+alimentação,Servicios de lavandería,hyper
+alimentação,Lavanderia,hyper
+exceção,Service,hypo
+exceção,Service,hypo
+cartar,Horário,hypo
+cartar,Horário do Restaurante,hyper
+cartar,Horário do Spa,hyper
+cartar,Horário da Piscina Externa,hyper
+cartar,Horário da Piscina Coberta,hyper
+cartar,Horário,hyper
+féria,Endereço,hypo
+féria,Endereço,hypo
+féria,Categoria de hotéis,hypo
+ifi,Service,hypo
+e_o_preço,Endereço,hypo
+e_o_preço,Endereço,hypo
+e_o_preço,Service,hypo
+e_o_preço,Categoria de hotéis,hypo
+standard,Service,hypo
+standard,Facilidade do banheiro,hypo
+amigar,Endereço,hypo
+amigar,Endereço,hypo
+vaso,Tipo de hóspede,hypo
+vaso,Facilidade do quarto,hypo
+vaso,Facilidade do quarto,hypo
+vaso,Facilidade do banheiro,hypo
+vaso,Facilidade do banheiro,hypo
+vaso,Facilidade do banheiro,hypo
+vaso,Casal,hypo
+vaso,Casal Jovem,hyper
+vaso,Casal,hyper
+vaso,Casal Maduro,hyper
+redondeza,Facilidade,hypo
+redondeza,Pontos de interesse,hypo
+redondeza,Pontos de interesse,hypo
+redondeza,Facilidade,hyper
+redondeza,Facilidades da Casa de Banho,hyper
+redondeza,Instalação interna,hyper
+redondeza,Facilidades do Quarto,hyper
+redondeza,Acesso para Deficientes,hyper
+redondeza,Instalação externa,hyper
+redondeza,Motorista,hyper
+redondeza,Categoria de hotéis,hypo
+rápido,Service,hypo
+rápido,Service,hypo
+rápido,Instalação Interna,hypo
+rápido,Lavanderia,hypo
+rápido,Cuarto de lavado,hyper
+rápido,Servicios de lavandería,hyper
+rápido,Lavanderia,hyper
+ferrar,Facilidade do banheiro,hypo
+ferrar,Facilidade do banheiro,hypo
+bem_localizado_e,Endereço,hypo
+bem_localizado_e,Endereço,hypo
+bem_localizado_e,Service,hypo
+bem_localizado_e,Categoria de hotéis,hypo
+comércio,Facilidade,hypo
+comércio,Pontos de interesse,hypo
+comércio,Pontos de interesse,hypo
+comércio,Pontos de interesse,hypo
+comércio,Facilidade,hyper
+comércio,Facilidades da Casa de Banho,hyper
+comércio,Instalação interna,hyper
+comércio,Facilidades do Quarto,hyper
+comércio,Acesso para Deficientes,hyper
+comércio,Instalação externa,hyper
+comércio,Motorista,hyper
+comércio,Instalação Externa,hypo
+inconveniente,Service,hypo
+palavra,Endereço,hypo
+palavra,Endereço,hypo
+temperatura,Facilidade do quarto,hypo
+temperatura,Facilidade do quarto,hypo
+temperatura,Facilidade do banheiro,hypo
+temperatura,Facilidade do banheiro,hypo
+amenidade,Service,hypo
+amenidade,Instalação Interna,hypo
+amenidade,Lavanderia,hypo
+amenidade,Cuarto de lavado,hyper
+amenidade,Servicios de lavandería,hyper
+amenidade,Lavanderia,hyper
+na_minha_opinião,Endereço,hypo
+na_minha_opinião,Endereço,hypo
+na_minha_opinião,Service,hypo
+na_minha_opinião,Service,hypo
+na_minha_opinião,Instalação Interna,hypo
+na_minha_opinião,Lavanderia,hypo
+na_minha_opinião,Cuarto de lavado,hyper
+na_minha_opinião,Servicios de lavandería,hyper
+na_minha_opinião,Lavanderia,hyper
+farmácia,Pontos de interesse,hypo
+farmácia,Instalação Externa,hypo
+farmácia,Instalação Interna,hypo
+mau,Service,hypo
+apto,Endereço,hypo
+apto,Endereço,hypo
+apto,Service,hypo
+apto,Instalação Interna,hypo
+apto,Lavanderia,hypo
+apto,Cuarto de lavado,hyper
+apto,Servicios de lavandería,hyper
+apto,Lavanderia,hyper
+músico,Service,hypo
+básico,Service,hypo
+básico,Service,hypo
+básico,Instalação Interna,hypo
+básico,Lavanderia,hypo
+básico,Cuarto de lavado,hyper
+básico,Servicios de lavandería,hyper
+básico,Lavanderia,hyper
+localização_do_hotel,Endereço,hypo
+localização_do_hotel,Endereço,hypo
+localização_do_hotel,Pontos de interesse,hypo
+localização_do_hotel,Categoria de hotéis,hypo
+meio,Endereço,hypo
+meio,Endereço,hypo
+meio,Service,hypo
+conveniência,Service,hypo
+conveniência,Service,hypo
+conveniência,Instalação Interna,hypo
+conveniência,Lavanderia,hypo
+conveniência,Cuarto de lavado,hyper
+conveniência,Servicios de lavandería,hyper
+conveniência,Lavanderia,hyper
+huntleia,Endereço,hypo
+huntleia,Endereço,hypo
+ônibus,Endereço,hypo
+ônibus,Endereço,hypo
+ônibus,Pontos de interesse,hypo
+armário,Tipo de hóspede,hypo
+armário,Facilidade do quarto,hypo
+armário,Facilidade do quarto,hypo
+armário,Facilidade do banheiro,hypo
+armário,Facilidade do banheiro,hypo
+armário,Facilidade do banheiro,hypo
+armário,Casal,hypo
+armário,Casal Jovem,hyper
+armário,Casal,hyper
+armário,Casal Maduro,hyper
+aceitar,Horário,hypo
+aceitar,Horário do Restaurante,hyper
+aceitar,Horário do Spa,hyper
+aceitar,Horário da Piscina Externa,hyper
+aceitar,Horário da Piscina Coberta,hyper
+aceitar,Horário,hyper
+pé,Endereço,hypo
+pé,Endereço,hypo
+pé,Facilidade,hypo
+pé,Pontos de interesse,hypo
+pé,Pontos de interesse,hypo
+pé,Pontos de interesse,hypo
+pé,Facilidade,hyper
+pé,Facilidades da Casa de Banho,hyper
+pé,Instalação interna,hyper
+pé,Facilidades do Quarto,hyper
+pé,Acesso para Deficientes,hyper
+pé,Instalação externa,hyper
+pé,Motorista,hyper
+aspecto,Service,hypo
+aspecto,Facilidade do banheiro,hypo
+turismo,Endereço,hypo
+turismo,Endereço,hypo
+turismo,Categoria de hotéis,hypo
+estúdio,Service,hypo
+estúdio,Service,hypo
+ocasião,Endereço,hypo
+ocasião,Endereço,hypo
+ocasião,Service,hypo
+ocasião,Categoria de hotéis,hypo
+manutenção,Instalação Interna,hypo
+satisfazer,Service,hypo
+satisfazer,Service,hypo
+encomendar,Horário,hypo
+encomendar,Horário do Restaurante,hyper
+encomendar,Horário do Spa,hyper
+encomendar,Horário da Piscina Externa,hyper
+encomendar,Horário da Piscina Coberta,hyper
+encomendar,Horário,hyper
+desculpar,Horário,hypo
+desculpar,Horário do Restaurante,hyper
+desculpar,Horário do Spa,hyper
+desculpar,Horário da Piscina Externa,hyper
+desculpar,Horário da Piscina Coberta,hyper
+desculpar,Horário,hyper
+expressar,Service,hypo
+expressar,Service,hypo
+cabo,Facilidade do quarto,hypo
+frio,Facilidade do quarto,hypo
+pá,Endereço,hypo
+pá,Endereço,hypo
+pá,Categoria de hotéis,hypo
+norte,Endereço,hypo
+norte,Endereço,hypo
+norte,Categoria de hotéis,hypo
+hotel_tem_uma,Instalação Interna,hypo
+hotel_tem_uma,Lavanderia,hypo
+hotel_tem_uma,Cuarto de lavado,hyper
+hotel_tem_uma,Servicios de lavandería,hyper
+hotel_tem_uma,Lavanderia,hyper
+o_hotel_fica,Endereço,hypo
+o_hotel_fica,Endereço,hypo
+o_hotel_fica,Pontos de interesse,hypo
+o_hotel_fica,Categoria de hotéis,hypo
+o_hotel_não,Endereço,hypo
+o_hotel_não,Endereço,hypo
+janeiro,Endereço,hypo
+janeiro,Endereço,hypo
+janeiro,Service,hypo
+janeiro,Categoria de hotéis,hypo
+rock,Endereço,hypo
+rock,Endereço,hypo
+rock,Pontos de interesse,hypo
+rock,Categoria de hotéis,hypo
+recém,Service,hypo
+recém,Service,hypo
+visão,Endereço,hypo
+visão,Endereço,hypo
+clube,Endereço,hypo
+clube,Endereço,hypo
+clube,Service,hypo
+quantidade,Endereço,hypo
+quantidade,Endereço,hypo
+quantidade,Service,hypo
+quantidade,Service,hypo
+western,Pontos de interesse,hypo
+western,Categoria de hotéis,hypo
+região,Endereço,hypo
+região,Endereço,hypo
+região,Facilidade,hypo
+região,Pontos de interesse,hypo
+região,Pontos de interesse,hypo
+região,Facilidade,hyper
+região,Facilidades da Casa de Banho,hyper
+região,Instalação interna,hyper
+região,Facilidades do Quarto,hyper
+região,Acesso para Deficientes,hyper
+região,Instalação externa,hyper
+região,Motorista,hyper
+geral,Service,hypo
+geral,Service,hypo
+aparência,Service,hypo
+aparência,Service,hypo
+aparência,Facilidade do banheiro,hypo
+carpete,Facilidade do quarto,hypo
+carpete,Instalação Interna,hypo
+reposição,Service,hypo
+hileto,Endereço,hypo
+hileto,Endereço,hypo
+hileto,Service,hypo
+hileto,Categoria de hotéis,hypo
+início,Endereço,hypo
+início,Endereço,hypo
+início,Service,hypo
+início,Service,hypo
+silêncio,Endereço,hypo
+silêncio,Endereço,hypo
+silêncio,Pontos de interesse,hypo
+silêncio,Categoria de hotéis,hypo
+stress,Endereço,hypo
+stress,Endereço,hypo
+stress,Endereço,hypo
+stress,Endereço,hypo
+stress,Pontos de interesse,hypo
+stress,Pontos de interesse,hypo
+cafeteiro,Facilidade do quarto,hypo
+pagamento,Horário,hypo
+pagamento,Horário do Restaurante,hyper
+pagamento,Horário do Spa,hyper
+pagamento,Horário da Piscina Externa,hyper
+pagamento,Horário da Piscina Coberta,hyper
+pagamento,Horário,hyper
+da_manhã_muito,Instalação Interna,hypo
+da_manhã_muito,Lavanderia,hypo
+da_manhã_muito,Cuarto de lavado,hyper
+da_manhã_muito,Servicios de lavandería,hyper
+da_manhã_muito,Lavanderia,hyper
+aquecimento,Facilidade do quarto,hypo
+aquecimento,Facilidade do quarto,hypo
+aquecimento,Facilidade do banheiro,hypo
+aquecimento,Facilidade do banheiro,hypo
+vizinhar,Endereço,hypo
+vizinhar,Endereço,hypo
+vizinhar,Service,hypo
+médio,Endereço,hypo
+médio,Endereço,hypo
+médio,Pontos de interesse,hypo
+médio,Categoria de hotéis,hypo
+solteiro,Tipo de hóspede,hypo
+solteiro,Facilidade do quarto,hypo
+solteiro,Facilidade do quarto,hypo
+solteiro,Facilidade do banheiro,hypo
+solteiro,Casal,hypo
+solteiro,Casal Jovem,hyper
+solteiro,Casal,hyper
+solteiro,Casal Maduro,hyper
+casa_de_banho,Tipo de hóspede,hypo
+casa_de_banho,Facilidade do quarto,hypo
+casa_de_banho,Facilidade do quarto,hypo
+casa_de_banho,Facilidade do banheiro,hypo
+casa_de_banho,Facilidade do banheiro,hypo
+casa_de_banho,Quarto de hotel,hypo
+casa_de_banho,Casal,hypo
+casa_de_banho,Casal Jovem,hyper
+casa_de_banho,Casal,hyper
+casa_de_banho,Casal Maduro,hyper
+acolhedor,Instalação Interna,hypo
+acolhedor,Lavanderia,hypo
+acolhedor,Cuarto de lavado,hyper
+acolhedor,Servicios de lavandería,hyper
+acolhedor,Lavanderia,hyper
+metrô,Pontos de interesse,hypo
+metrô,Instalação Externa,hypo
+dê,Facilidade,hypo
+dê,Pontos de interesse,hypo
+dê,Pontos de interesse,hypo
+dê,Pontos de interesse,hypo
+dê,Facilidade,hyper
+dê,Facilidades da Casa de Banho,hyper
+dê,Instalação interna,hyper
+dê,Facilidades do Quarto,hyper
+dê,Acesso para Deficientes,hyper
+dê,Instalação externa,hyper
+dê,Motorista,hyper
+dê,Instalação Externa,hypo
+igreja,Facilidade,hypo
+igreja,Pontos de interesse,hypo
+igreja,Pontos de interesse,hypo
+igreja,Facilidade,hyper
+igreja,Facilidades da Casa de Banho,hyper
+igreja,Instalação interna,hyper
+igreja,Facilidades do Quarto,hyper
+igreja,Acesso para Deficientes,hyper
+igreja,Instalação externa,hyper
+igreja,Motorista,hyper
+igreja,Instalação Externa,hypo
+igreja,Categoria de hotéis,hypo
+galeria,Facilidade,hypo
+galeria,Pontos de interesse,hypo
+galeria,Pontos de interesse,hypo
+galeria,Pontos de interesse,hypo
+galeria,Facilidade,hyper
+galeria,Facilidades da Casa de Banho,hyper
+galeria,Instalação interna,hyper
+galeria,Facilidades do Quarto,hyper
+galeria,Acesso para Deficientes,hyper
+galeria,Instalação externa,hyper
+galeria,Motorista,hyper
+galeria,Instalação Externa,hypo
+bairro,Facilidade,hypo
+bairro,Pontos de interesse,hypo
+bairro,Pontos de interesse,hypo
+bairro,Facilidade,hyper
+bairro,Facilidades da Casa de Banho,hyper
+bairro,Instalação interna,hyper
+bairro,Facilidades do Quarto,hyper
+bairro,Acesso para Deficientes,hyper
+bairro,Instalação externa,hyper
+bairro,Motorista,hyper
+bairro,Instalação Externa,hypo
+delícia,Service,hypo
+delícia,Service,hypo
+delícia,Instalação Interna,hypo
+delícia,Lavanderia,hypo
+delícia,Cuarto de lavado,hyper
+delícia,Servicios de lavandería,hyper
+delícia,Lavanderia,hyper
+do_metro_e,Facilidade,hypo
+do_metro_e,Pontos de interesse,hypo
+do_metro_e,Pontos de interesse,hypo
+do_metro_e,Pontos de interesse,hypo
+do_metro_e,Facilidade,hyper
+do_metro_e,Facilidades da Casa de Banho,hyper
+do_metro_e,Instalação interna,hyper
+do_metro_e,Facilidades do Quarto,hyper
+do_metro_e,Acesso para Deficientes,hyper
+do_metro_e,Instalação externa,hyper
+do_metro_e,Motorista,hyper
+terraço,Endereço,hypo
+terraço,Endereço,hypo
+terraço,Service,hypo
+terraço,Service,hypo
+terraço,Instalação Interna,hypo
+terraço,Lavanderia,hypo
+terraço,Cuarto de lavado,hyper
+terraço,Servicios de lavandería,hyper
+terraço,Lavanderia,hyper
+placê,Endereço,hypo
+placê,Endereço,hypo
+placê,Pontos de interesse,hypo
+placê,Pontos de interesse,hypo
+placê,Categoria de hotéis,hypo
+bastilha,Pontos de interesse,hypo
+bastilha,Instalação Interna,hypo
+bastilha,Lavanderia,hypo
+bastilha,Cuarto de lavado,hyper
+bastilha,Servicios de lavandería,hyper
+bastilha,Lavanderia,hyper
+madeirar,Tipo de hóspede,hypo
+madeirar,Facilidade do banheiro,hypo
+madeirar,Casal,hypo
+madeirar,Casal Jovem,hyper
+madeirar,Casal,hyper
+madeirar,Casal Maduro,hyper
+proximidade,Facilidade,hypo
+proximidade,Pontos de interesse,hypo
+proximidade,Facilidade,hyper
+proximidade,Facilidades da Casa de Banho,hyper
+proximidade,Instalação interna,hyper
+proximidade,Facilidades do Quarto,hyper
+proximidade,Acesso para Deficientes,hyper
+proximidade,Instalação externa,hyper
+proximidade,Motorista,hyper
+proximidade,Instalação Externa,hypo
+proximidade,Instalação Interna,hypo
+transporte,Pontos de interesse,hypo
+transporte,Categoria de hotéis,hypo
+possibilidade,Endereço,hypo
+possibilidade,Endereço,hypo
+possibilidade,Service,hypo
+possibilidade,Service,hypo
+possibilidade,Instalação Interna,hypo
+possibilidade,Lavanderia,hypo
+possibilidade,Cuarto de lavado,hyper
+possibilidade,Servicios de lavandería,hyper
+possibilidade,Lavanderia,hyper
+contratar,Service,hypo
+contratar,Service,hypo
+gare,Endereço,hypo
+gare,Endereço,hypo
+gare,Facilidade,hypo
+gare,Pontos de interesse,hypo
+gare,Pontos de interesse,hypo
+gare,Facilidade,hyper
+gare,Facilidades da Casa de Banho,hyper
+gare,Instalação interna,hyper
+gare,Facilidades do Quarto,hyper
+gare,Acesso para Deficientes,hyper
+gare,Instalação externa,hyper
+gare,Motorista,hyper
+gare,Instalação Externa,hypo
+aquecedor,Service,hypo
+aquecedor,Facilidade do quarto,hypo
+aquecedor,Facilidade do banheiro,hypo
+minúsculo,Tipo de hóspede,hypo
+minúsculo,Facilidade do quarto,hypo
+minúsculo,Facilidade do quarto,hypo
+minúsculo,Facilidade do banheiro,hypo
+minúsculo,Instalação Interna,hypo
+minúsculo,Casal,hypo
+minúsculo,Casal Jovem,hyper
+minúsculo,Casal,hyper
+minúsculo,Casal Maduro,hyper
+idear,Endereço,hypo
+idear,Endereço,hypo
+estação_do_metro,Pontos de interesse,hypo
+estação_do_metro,Service,hypo
+estação_do_metro,Instalação Interna,hypo
+estação_do_metro,Lavanderia,hypo
+estação_do_metro,Cuarto de lavado,hyper
+estação_do_metro,Servicios de lavandería,hyper
+estação_do_metro,Lavanderia,hyper
+condicionar,Tipo de hóspede,hypo
+condicionar,Facilidade do quarto,hypo
+condicionar,Facilidade do quarto,hypo
+condicionar,Facilidade do banheiro,hypo
+condicionar,Casal,hypo
+condicionar,Casal Jovem,hyper
+condicionar,Casal,hyper
+condicionar,Casal Maduro,hyper
+design,Service,hypo
+design,Service,hypo
+próximo_ao_metro,Facilidade,hypo
+próximo_ao_metro,Pontos de interesse,hypo
+próximo_ao_metro,Facilidade,hyper
+próximo_ao_metro,Facilidades da Casa de Banho,hyper
+próximo_ao_metro,Instalação interna,hyper
+próximo_ao_metro,Facilidades do Quarto,hyper
+próximo_ao_metro,Acesso para Deficientes,hyper
+próximo_ao_metro,Instalação externa,hyper
+próximo_ao_metro,Motorista,hyper
+frança,Endereço,hypo
+frança,Endereço,hypo
+frança,Service,hypo
+frança,Service,hypo
+ha,Pontos de interesse,hypo
+ha,Instalação Interna,hypo
+ha,Lavanderia,hypo
+ha,Cuarto de lavado,hyper
+ha,Servicios de lavandería,hyper
+ha,Lavanderia,hyper
+funcionários_da_recepção,Endereço,hypo
+funcionários_da_recepção,Endereço,hypo
+fundo,Service,hypo
+fundo,Service,hypo
+fundo,Facilidade do banheiro,hypo
+em_todo_o,Service,hypo
+a_sua_localização,Endereço,hypo
+a_sua_localização,Endereço,hypo
+a_sua_localização,Service,hypo
+a_sua_localização,Categoria de hotéis,hypo
+rer,Facilidade,hypo
+rer,Pontos de interesse,hypo
+rer,Pontos de interesse,hypo
+rer,Pontos de interesse,hypo
+rer,Facilidade,hyper
+rer,Facilidades da Casa de Banho,hyper
+rer,Instalação interna,hyper
+rer,Facilidades do Quarto,hyper
+rer,Acesso para Deficientes,hyper
+rer,Instalação externa,hyper
+rer,Motorista,hyper
+rer,Instalação Externa,hypo
+ventilação,Tipo de hóspede,hypo
+ventilação,Facilidade do banheiro,hypo
+ventilação,Casal,hypo
+ventilação,Casal Jovem,hyper
+ventilação,Casal,hyper
+ventilação,Casal Maduro,hyper
+passo,Endereço,hypo
+passo,Endereço,hypo
+passo,Service,hypo
+passo,Service,hypo
+passo,Instalação Interna,hypo
+passo,Lavanderia,hypo
+passo,Cuarto de lavado,hyper
+passo,Servicios de lavandería,hyper
+passo,Lavanderia,hyper
++,Service,hypo
++,Instalação Interna,hypo
++,Lavanderia,hypo
++,Cuarto de lavado,hyper
++,Servicios de lavandería,hyper
++,Lavanderia,hyper
+distrito,Pontos de interesse,hypo
+distrito,Pontos de interesse,hypo
+distrito,Categoria de hotéis,hypo
+muito_do_hotel,Categoria de hotéis,hypo
+disponibilidade,Endereço,hypo
+disponibilidade,Endereço,hypo
+si,Endereço,hypo
+si,Endereço,hypo
+si,Service,hypo
+calefação,Facilidade do quarto,hypo
+calefação,Facilidade do quarto,hypo
+calefação,Facilidade do banheiro,hypo
+calefação,Facilidade do banheiro,hypo
+calefação,Facilidade do banheiro,hypo
+perto_do_metro,Pontos de interesse,hypo
+perto_do_metro,Instalação Interna,hypo
+perto_do_metro,Lavanderia,hypo
+perto_do_metro,Cuarto de lavado,hyper
+perto_do_metro,Servicios de lavandería,hyper
+perto_do_metro,Lavanderia,hyper
+carreadouro,Instalação Interna,hypo
+carreadouro,Lavanderia,hypo
+carreadouro,Cuarto de lavado,hyper
+carreadouro,Servicios de lavandería,hyper
+carreadouro,Lavanderia,hyper
+poeira,Facilidade do banheiro,hypo
+poeira,Instalação Interna,hypo
+monopriono,Facilidade,hypo
+monopriono,Pontos de interesse,hypo
+monopriono,Pontos de interesse,hypo
+monopriono,Pontos de interesse,hypo
+monopriono,Facilidade,hyper
+monopriono,Facilidades da Casa de Banho,hyper
+monopriono,Instalação interna,hyper
+monopriono,Facilidades do Quarto,hyper
+monopriono,Acesso para Deficientes,hyper
+monopriono,Instalação externa,hyper
+monopriono,Motorista,hyper
+monopriono,Instalação Externa,hypo
+comerciar,Facilidade,hypo
+comerciar,Pontos de interesse,hypo
+comerciar,Pontos de interesse,hypo
+comerciar,Pontos de interesse,hypo
+comerciar,Facilidade,hyper
+comerciar,Facilidades da Casa de Banho,hyper
+comerciar,Instalação interna,hyper
+comerciar,Facilidades do Quarto,hyper
+comerciar,Acesso para Deficientes,hyper
+comerciar,Instalação externa,hyper
+comerciar,Motorista,hyper
+cima,Endereço,hypo
+cima,Endereço,hypo
+cima,Service,hypo
+grupar,Horário,hypo
+grupar,Horário do Restaurante,hyper
+grupar,Horário do Spa,hyper
+grupar,Horário da Piscina Externa,hyper
+grupar,Horário da Piscina Coberta,hyper
+grupar,Horário,hyper
+respostar,Horário,hypo
+respostar,Horário do Restaurante,hyper
+respostar,Horário do Spa,hyper
+respostar,Horário da Piscina Externa,hyper
+respostar,Horário da Piscina Coberta,hyper
+respostar,Horário,hyper
+zonar,Facilidade,hypo
+zonar,Pontos de interesse,hypo
+zonar,Pontos de interesse,hypo
+zonar,Pontos de interesse,hypo
+zonar,Facilidade,hyper
+zonar,Facilidades da Casa de Banho,hyper
+zonar,Instalação interna,hyper
+zonar,Facilidades do Quarto,hyper
+zonar,Acesso para Deficientes,hyper
+zonar,Instalação externa,hyper
+zonar,Motorista,hyper
+zonar,Instalação Externa,hypo
+furtar,Horário,hypo
+furtar,Horário do Restaurante,hyper
+furtar,Horário do Spa,hyper
+furtar,Horário da Piscina Externa,hyper
+furtar,Horário da Piscina Coberta,hyper
+furtar,Horário,hyper
+suficiente,Endereço,hypo
+suficiente,Endereço,hypo
+suficiente,Service,hypo
+suficiente,Service,hypo
+suficiente,Instalação Interna,hypo
+suficiente,Lavanderia,hypo
+suficiente,Cuarto de lavado,hyper
+suficiente,Servicios de lavandería,hyper
+suficiente,Lavanderia,hyper
+redor,Pontos de interesse,hypo
+redor,Instalação Interna,hypo
+redor,Lavanderia,hypo
+redor,Cuarto de lavado,hyper
+redor,Servicios de lavandería,hyper
+redor,Lavanderia,hyper
+novilhote,Endereço,hypo
+novilhote,Endereço,hypo
+novilhote,Pontos de interesse,hypo
+novilhote,Service,hypo
+novilhote,Categoria de hotéis,hypo
+cambrone,Facilidade,hypo
+cambrone,Pontos de interesse,hypo
+cambrone,Facilidade,hyper
+cambrone,Facilidades da Casa de Banho,hyper
+cambrone,Instalação interna,hyper
+cambrone,Facilidades do Quarto,hyper
+cambrone,Acesso para Deficientes,hyper
+cambrone,Instalação externa,hyper
+cambrone,Motorista,hyper
+nu,Endereço,hypo
+nu,Endereço,hypo
+nu,Service,hypo
+nu,Categoria de hotéis,hypo
+time,Facilidade,hypo
+time,Pontos de interesse,hypo
+time,Facilidade,hyper
+time,Facilidades da Casa de Banho,hyper
+time,Instalação interna,hyper
+time,Facilidades do Quarto,hyper
+time,Acesso para Deficientes,hyper
+time,Instalação externa,hyper
+time,Motorista,hyper
+time,Categoria de hotéis,hypo
+nyc,Alojamento,hypo
+nyc,Hotel,hypo
+nyc,Hotel cápsula,hyper
+nyc,Hotel casa da árvore,hyper
+nyc,Hotel de gelo,hyper
+nyc,Hotel Casamata,hyper
+nyc,Hotel,hyper
+nyc,Hotel aquático,hyper
+nyc,Hotel adega,hyper
+nyc,Categoria de hotéis,hypo
+da_time_suare,Facilidade,hypo
+da_time_suare,Pontos de interesse,hypo
+da_time_suare,Pontos de interesse,hypo
+da_time_suare,Pontos de interesse,hypo
+da_time_suare,Facilidade,hyper
+da_time_suare,Facilidades da Casa de Banho,hyper
+da_time_suare,Instalação interna,hyper
+da_time_suare,Facilidades do Quarto,hyper
+da_time_suare,Acesso para Deficientes,hyper
+da_time_suare,Instalação externa,hyper
+da_time_suare,Motorista,hyper
+times,Facilidade,hypo
+times,Pontos de interesse,hypo
+times,Pontos de interesse,hypo
+times,Facilidade,hyper
+times,Facilidades da Casa de Banho,hyper
+times,Instalação interna,hyper
+times,Facilidades do Quarto,hyper
+times,Acesso para Deficientes,hyper
+times,Instalação externa,hyper
+times,Motorista,hyper
+times,Instalação Externa,hypo
+de_times_suare,Facilidade,hypo
+de_times_suare,Pontos de interesse,hypo
+de_times_suare,Pontos de interesse,hypo
+de_times_suare,Pontos de interesse,hypo
+de_times_suare,Facilidade,hyper
+de_times_suare,Facilidades da Casa de Banho,hyper
+de_times_suare,Instalação interna,hyper
+de_times_suare,Facilidades do Quarto,hyper
+de_times_suare,Acesso para Deficientes,hyper
+de_times_suare,Instalação externa,hyper
+de_times_suare,Motorista,hyper
+de_times_suare,Instalação Externa,hypo
+macamas,Facilidade,hypo
+macamas,Pontos de interesse,hypo
+macamas,Pontos de interesse,hypo
+macamas,Pontos de interesse,hypo
+macamas,Facilidade,hyper
+macamas,Facilidades da Casa de Banho,hyper
+macamas,Instalação interna,hyper
+macamas,Facilidades do Quarto,hyper
+macamas,Acesso para Deficientes,hyper
+macamas,Instalação externa,hyper
+macamas,Motorista,hyper
+macamas,Instalação Externa,hypo
